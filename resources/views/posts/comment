@@ -1,0 +1,35 @@
+<div class="section-header" style="margin:20px 0">
+        <h2>Comments</h2>
+    </div>
+    <div class="comment-section" id="test">
+
+        <div id="mybox-comments" style="display:flex; width:100%; justify-content:space-between">
+            <div style="flex:0 0 23%;">
+                <input v-model="dataForm.userId" style="height:50px;display: block;width: 100%;margin-bottom: 10px;padding: 10px;font-size: 16px;border: 2px solid #ccc;border-radius: 4px;" placeholder="Họ và tên"></input>
+                <span style="color:red; margin-bottom: 5px; font-size: 16px;" v-if="dataForm.errors().has('userId')">
+                    @{{ dataForm.errors().get('userId') }}
+                </span>
+            </div>
+            <div style="flex:0 0 75%;">
+                <textarea v-model="dataForm.content" rows="1" style="display: block;width: 100%;margin-bottom: 12px;padding: 5px;font-size: 16px;border: 2px solid #ccc;border-radius: 4px;" placeholder="Bình luận của bạn"></textarea>
+                <span style="color:red; margin-bottom: 5px; font-size: 16px;" v-if="dataForm.errors().has('content')">
+                    @{{ dataForm.errors().get('content') }}
+                </span>
+            </div>
+        </div>
+        <!-- <button style="display:block" class="g-recaptcha" 
+        data-sitekey="6Lf1BqElAAAAADzy7i3bRitEZJ1cFUHrtzxaQMM4" 
+        ></button> -->
+        <div style="margin:0 auto; width: fit-content; margin-bottom: 10px" class="g-recaptcha" data-sitekey="6LcXLaElAAAAANIM3bxWQ_JO54l6TBHOQLYvpfHD"></div>
+        
+        <button @click="saveform()" style=" display: block;margin: 0 auto;padding: 10px 20px;font-size: 16px;background-color: #4CAF50;color: #fff;border: none;border-radius: 4px;cursor: pointer;" type="submit">Đăng bình luận</button>
+        <div class="comment-list" style="margin-top: 40px;">
+            <div class="comment" style="margin-bottom: 20px; padding: 20px;background-color: #f2f2f2;border-radius: 4px;" v-for="i in datatb.tableData">
+                <h3 class="comment-author" style="margin: 0;font-size: 20px;">@{{i.userId}}</h3>
+                <p class="comment-text" style="margin: 10px 0 0 0;font-size: 16px;">@{{i.content}}</p>
+            </div>
+
+
+        </div>
+    </div>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
