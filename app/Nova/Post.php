@@ -122,6 +122,12 @@ class Post extends Resource
             // Text::make('Linkyoutube', 'seo_title')->hideFromIndex(),
             // Textarea::make('Mô tả SEO', 'seo_description')->hideFromIndex(),
             // Image::make('Hình ảnh SEO', 'seo_image')->hideFromIndex(),
+            Select::make('Nổi bật', 'noibat')
+            ->options([
+                1 => 'Tin nổi bật',
+                2 => 'Không nổi bật',
+               
+            ]),
             Fileupload::make('Upload File PDF','file')->upload(['posts'])->hideFromIndex(),
             
         ];

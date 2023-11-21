@@ -1697,356 +1697,51 @@
                                         nhất</span></h4>
                             </div>
                             <div id=td_uid_15_6541133a23b8e class="td_block_inner td-mc1-wrap">
+                                @foreach($docnhieunhat as $dnn)
                                 <div class="td_module_flex_1 td_module_wrap td-animation-stack">
                                     <div class="td-module-container td-category-pos-">
                                         <div class="td-image-container">
                                             <div class="td-module-thumb"><a
-                                                    href="ung-xu%cc%89-thong-minh-sinh-vien-nam-nhat-gianh-ngoi-vi-hoa-khoi-charm-of-law-2018/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$dnn->slug}}"
                                                     rel="bookmark" class="td-image-wrap"
-                                                    title="Ứng xử thông minh, sinh viên năm nhất giành ngôi vị hoa khôi “Charm Of Law 2018”"><span
+                                                    title="{{$dnn->title}}"><span
                                                         class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/thoi-su-2-696x464.jpg"></span></a>
+                                                        data-img-url="/storage/{{$dnn->thumbnail}}"></span></a>
                                             </div>
                                         </div>
 
                                         <div class="td-module-meta-info">
 
                                             <h3 class="entry-title td-module-title"><a
-                                                    href="ung-xu%cc%89-thong-minh-sinh-vien-nam-nhat-gianh-ngoi-vi-hoa-khoi-charm-of-law-2018/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$dnn->slug}}"
                                                     rel="bookmark"
-                                                    title="Ứng xử thông minh, sinh viên năm nhất giành ngôi vị hoa khôi “Charm Of Law 2018”">Ứng
-                                                    xử thông minh, sinh viên năm nhất giành ngôi vị hoa
-                                                    khôi “Charm Of Law 2018”</a></h3>
+                                                    title="{{$dnn->title}}">{{$dnn->title}}</a></h3>
 
                                             <div class="td-editor-date">
-                                                <a href="category/thoi-su/index.html" class="td-post-category">Thời
-                                                    sự</a>
+                                                <a href="/chi-tiet-tin-tuc/{{$dnn->slug}}" class="td-post-category"></a>
                                                 <span class="td-author-date">
                                                     <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
+                                                            href="/chi-tiet-tin-tuc/{{$dnn->slug}}">mona</a>
                                                         <span>-</span> </span> <span class="td-post-date"><time
                                                             class="entry-date updated td-module-date"
-                                                            datetime="2019-04-16T07:29:39+00:00">16
-                                                            Tháng Tư, 2019</time></span>
+                                                            datetime="2019-04-16T07:29:39+00:00">21
+                                                            Tháng Mười Một, 2023</time></span>
                                                     <div class="td-module-comments"><a
-                                                            href="ung-xu%cc%89-thong-minh-sinh-vien-nam-nhat-gianh-ngoi-vi-hoa-khoi-charm-of-law-2018/index.html#respond">0</a>
+                                                            href="">0</a>
                                                     </div>
                                                 </span>
                                             </div>
 
-                                            <div class="td-excerpt">Tiếp nối những thành công từ
-                                                cuộc thi 2016, cuộc thi “Charm Of Law” - Duyên dáng nữ
-                                                sinh trường đại học Luật Hà...</div>
+                                            <div class="td-excerpt">{!! $dnn->excerpt !!}</div>
                                             <div class="td-read-more">
                                                 <a
-                                                    href="ung-xu%cc%89-thong-minh-sinh-vien-nam-nhat-gianh-ngoi-vi-hoa-khoi-charm-of-law-2018/index.html">Xem
+                                                    href="chi-tiet-tin-tuc/{{$dnn->slug}}">Xem
                                                     thêm</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="nha-tho-duc-ba-paris-bieu-tuong-rieng-biet-va-doc-dao-cua-phap/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Nhà thờ Đức Bà Paris &#8211; Biểu tượng riêng biệt và độc đáo của Pháp"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/thoi-su-1-696x459.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="nha-tho-duc-ba-paris-bieu-tuong-rieng-biet-va-doc-dao-cua-phap/index.html"
-                                                    rel="bookmark"
-                                                    title="Nhà thờ Đức Bà Paris &#8211; Biểu tượng riêng biệt và độc đáo của Pháp">Nhà
-                                                    thờ Đức Bà Paris &#8211; Biểu tượng riêng biệt và
-                                                    độc đáo của Pháp</a></h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/thoi-su/index.html" class="td-post-category">Thời
-                                                    sự</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-16T07:27:14+00:00">16
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="nha-tho-duc-ba-paris-bieu-tuong-rieng-biet-va-doc-dao-cua-phap/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Không có địa danh nào đại diện cho
-                                                nước Pháp theo cách riêng biệt và độc đáo như Nhà thờ
-                                                Đức Bà Paris.
-                                                Biểu tượng...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="nha-tho-duc-ba-paris-bieu-tuong-rieng-biet-va-doc-dao-cua-phap/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Giải đáp: Người bị bệnh gút có ăn được đậu phụ không?"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cb-8.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html"
-                                                    rel="bookmark"
-                                                    title="Giải đáp: Người bị bệnh gút có ăn được đậu phụ không?">Giải
-                                                    đáp: Người bị bệnh gút có ăn được đậu phụ không?</a>
-                                            </h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/can-biet/index.html" class="td-post-category">Cần
-                                                    biết</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T09:30:46+00:00">17
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Đậu phụ là món ăn yêu thích của
-                                                nhiều người, nhưng đối với bệnh nhân gút, thực phẩm này
-                                                vẫn nằm trong vòng tranh...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="nhung-tiet-lo-bat-ngo-tu-phia-gia-dinh-truoc-khi-nu-sinh-lop-12-nhay-cau-o-bac-ninh/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Những tiết lộ bất ngờ từ phía gia đình trước khi nữ sinh lớp 12 nhảy cầu ở Bắc Ninh"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xh-4-696x503.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="nhung-tiet-lo-bat-ngo-tu-phia-gia-dinh-truoc-khi-nu-sinh-lop-12-nhay-cau-o-bac-ninh/index.html"
-                                                    rel="bookmark"
-                                                    title="Những tiết lộ bất ngờ từ phía gia đình trước khi nữ sinh lớp 12 nhảy cầu ở Bắc Ninh">Những
-                                                    tiết lộ bất ngờ từ phía gia đình trước khi nữ sinh
-                                                    lớp 12 nhảy cầu ở Bắc Ninh</a></h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/phap-luat/index.html" class="td-post-category">Pháp
-                                                    luật</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-16T06:37:09+00:00">16
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="nhung-tiet-lo-bat-ngo-tu-phia-gia-dinh-truoc-khi-nu-sinh-lop-12-nhay-cau-o-bac-ninh/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Phía gia đình cho biết, sau khi cãi
-                                                nhau với người yêu Nguyễn Thị Vân A. (SN 2001, tại Bắc
-                                                Ninh) đã nhắn tin...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="nhung-tiet-lo-bat-ngo-tu-phia-gia-dinh-truoc-khi-nu-sinh-lop-12-nhay-cau-o-bac-ninh/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Ca sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm “mất mặt”"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-5-696x1044.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html"
-                                                    rel="bookmark"
-                                                    title="Ca sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm “mất mặt”">Ca
-                                                    sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm “mất
-                                                    mặt”</a></h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                    trí</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T07:25:18+00:00">17
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Nữ ca sĩ đất Quảng Ninh cho hay, có
-                                                đại gia ngoài mặt thì khen cô, nhưng sau lưng lại chê cô
-                                                không có...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Ngô Thanh Vân chia sẻ lý do chọn &#8220;tình một đêm&#8221; thay cho mối quan hệ lâu dài"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-7-696x464.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html"
-                                                    rel="bookmark"
-                                                    title="Ngô Thanh Vân chia sẻ lý do chọn &#8220;tình một đêm&#8221; thay cho mối quan hệ lâu dài">Ngô
-                                                    Thanh Vân chia sẻ lý do chọn &#8220;tình một
-                                                    đêm&#8221; thay cho mối quan hệ lâu dài</a></h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                    trí</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T07:45:04+00:00">17
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Ngô Thanh Vân chọn &quot;tình một
-                                                đêm&quot; vì không có nhiều thời gian để suy nghĩ và
-                                                “mối quan hệ lâu dài” càng ngày...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-">
-                                        <div class="td-image-container">
-                                            <div class="td-module-thumb"><a
-                                                    href="lam-ro-thong-tin-nu-hanh-khach-bi-sam-so-tren-may-bay/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Làm rõ thông tin nữ hành khách bị sàm sỡ trên máy bay"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xh-10-696x391.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="lam-ro-thong-tin-nu-hanh-khach-bi-sam-so-tren-may-bay/index.html"
-                                                    rel="bookmark"
-                                                    title="Làm rõ thông tin nữ hành khách bị sàm sỡ trên máy bay">Làm
-                                                    rõ thông tin nữ hành khách bị sàm sỡ trên máy
-                                                    bay</a></h3>
-
-                                            <div class="td-editor-date">
-                                                <a href="category/xa-hoi/index.html" class="td-post-category">Xã
-                                                    hội</a>
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-16T06:47:56+00:00">16
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="lam-ro-thong-tin-nu-hanh-khach-bi-sam-so-tren-may-bay/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Sáng 15/4, trên mạng xã hội đăng tải
-                                                thông tin người nhà nữ hành khách cho rằng con gái mình
-                                                bị sàm sỡ trên...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="lam-ro-thong-tin-nu-hanh-khach-bi-sam-so-tren-may-bay/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+                                @endforeach
                             </div>
                         </div> <!-- ./block -->
                     </div>
@@ -2779,220 +2474,95 @@
                                 tdBlocksArray.push(block_td_uid_19_6541133a364ad);
                             </script>
                             <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Pháp
-                                        luật</span></h4>
+                                <h4 class="td-block-title"><span class="td-pulldown-size">Game</span></h4>
                             </div>
                             <div id=td_uid_19_6541133a364ad class="td_block_inner td-mc1-wrap">
+                                @if($game)
                                 <div class="td_module_flex_1 td_module_wrap td-animation-stack">
                                     <div class="td-module-container td-category-pos-image">
                                         <div class="td-image-container">
-                                            <a href="category/phap-luat/index.html" class="td-post-category">Pháp
-                                                luật</a>
+                                            <a href="/game" class="td-post-category">Game</a>
                                             <div class="td-module-thumb"><a
-                                                    href="20-nguoi-choi-ma-tuy-trong-quan-karaoke-o-mien-tay/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$game->slug}}"
                                                     rel="bookmark" class="td-image-wrap"
-                                                    title="20 người chơi ma tuý trong quán karaoke ở miền Tây"><span
+                                                    title="{{$game->title}}"><span
                                                         class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/pl-9.jpg"></span></a>
+                                                        data-img-url="/storage/{{$game->thumbnail}}"></span></a>
                                             </div>
                                         </div>
 
                                         <div class="td-module-meta-info">
 
                                             <h3 class="entry-title td-module-title"><a
-                                                    href="20-nguoi-choi-ma-tuy-trong-quan-karaoke-o-mien-tay/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$game->slug}}"
                                                     rel="bookmark"
-                                                    title="20 người chơi ma tuý trong quán karaoke ở miền Tây">20
-                                                    người chơi ma tuý trong quán karaoke ở miền Tây</a>
+                                                    title="{{$game->title}}">{{$game->title}}</a>
                                             </h3>
 
                                             <div class="td-editor-date">
 
                                                 <span class="td-author-date">
                                                     <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
+                                                            href="/game">mona</a>
                                                         <span>-</span> </span> <span class="td-post-date"><time
                                                             class="entry-date updated td-module-date"
-                                                            datetime="2019-04-16T11:01:45+00:00">16
-                                                            Tháng Tư, 2019</time></span>
+                                                            datetime="2019-04-16T11:01:45+00:00">21
+                                                            Tháng Mười Một, 2023</time></span>
                                                     <div class="td-module-comments"><a
-                                                            href="20-nguoi-choi-ma-tuy-trong-quan-karaoke-o-mien-tay/index.html#respond">0</a>
+                                                            href="/chi-tiet-tin-tuc/{{$game->slug}}">0</a>
                                                     </div>
                                                 </span>
                                             </div>
 
-                                            <div class="td-excerpt">Ập vào tiệm karaoke ở Vĩnh Long,
-                                                cảnh sát phát hiện hàng chục thanh niên tổ chức sử dụng
-                                                ma tuý.
-                                                Rạng sáng 14/4, cảnh...</div>
+                                            <div class="td-excerpt">{!! $game->excerpt !!}</div>
                                             <div class="td-read-more">
-                                                <a href="20-nguoi-choi-ma-tuy-trong-quan-karaoke-o-mien-tay/index.html">Xem
+                                                <a href="/chi-tiet-tin-tuc/{{$game->slug}}">Xem
                                                     thêm</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                @endif
 
                                 <div class="td_module_column">
+                                    @foreach($games as $gm)
                                     <div class="td_module_flex_3 td_module_wrap td-animation-stack">
                                         <div class="td-module-container td-category-pos-">
                                             <div class="td-image-container">
                                                 <div class="td-module-thumb"><a
-                                                        href="them-3-nguoi-trong-duong-day-ma-tuy-lon-nhat-an-giang-bi-bat/index.html"
+                                                        href="/chi-tiet-tin-tuc/{{$gm->slug}}"
                                                         rel="bookmark" class="td-image-wrap"
-                                                        title="Thêm 3 người trong đường dây ma tuý lớn nhất An Giang bị bắt"><span
+                                                        title="{{$gm->title}}"><span
                                                             class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/pl-8.jpg"></span></a>
+                                                            data-img-url="/storage/{{$gm->thumbnail}}"></span></a>
                                                 </div>
                                             </div>
 
                                             <div class="td-module-meta-info">
 
                                                 <h3 class="entry-title td-module-title"><a
-                                                        href="them-3-nguoi-trong-duong-day-ma-tuy-lon-nhat-an-giang-bi-bat/index.html"
+                                                        href="/chi-tiet-tin-tuc/{{$gm->slug}}"
                                                         rel="bookmark"
-                                                        title="Thêm 3 người trong đường dây ma tuý lớn nhất An Giang bị bắt">Thêm
-                                                        3 người trong đường dây ma tuý lớn nhất An Giang
-                                                        bị bắt</a></h3>
+                                                        title="{{$gm->title}}">{{$gm->title}}</a></h3>
                                                 <div class="td-editor-date">
-                                                    <a href="category/phap-luat/index.html"
-                                                        class="td-post-category">Pháp luật</a>
+                                                    <a href="/game"
+                                                        class="td-post-category">Game</a>
                                                     <span class="td-author-date">
                                                         <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
+                                                                href="/game">mona</a>
                                                             <span>-</span> </span> <span class="td-post-date"><time
                                                                 class="entry-date updated td-module-date"
-                                                                datetime="2019-04-16T10:59:42+00:00">16
-                                                                Tháng Tư, 2019</time></span>
+                                                                datetime="2019-04-16T10:59:42+00:00">21
+                                                                Tháng Mười Một, 2023</time></span>
                                                         <div class="td-module-comments"><a
-                                                                href="them-3-nguoi-trong-duong-day-ma-tuy-lon-nhat-an-giang-bi-bat/index.html#respond">0</a>
+                                                                href="/chi-tiet-tin-tuc/{{$gm->slug}}">0</a>
                                                         </div>
                                                     </span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="giam-doc-to-cao-cong-an-giu-nguoi-va-6-oto-trai-luat/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Giám đốc tố cáo công an giữ người và 6 ôtô trái luật"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/pl-7.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="giam-doc-to-cao-cong-an-giu-nguoi-va-6-oto-trai-luat/index.html"
-                                                        rel="bookmark"
-                                                        title="Giám đốc tố cáo công an giữ người và 6 ôtô trái luật">Giám
-                                                        đốc tố cáo công an giữ người và 6 ôtô trái
-                                                        luật</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/phap-luat/index.html"
-                                                        class="td-post-category">Pháp luật</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-16T10:56:37+00:00">16
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="giam-doc-to-cao-cong-an-giu-nguoi-va-6-oto-trai-luat/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="sap-xet-xu-vu-ha-van-tham-giai-doan-2-xay-ra-tai-cong-ty-tham-do-khai-thac-dau-khi/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Sắp xét xử vụ Hà Văn Thắm giai đoạn 2 xảy ra tại Công ty thăm dò khai thác dầu khí"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/pl-6.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="sap-xet-xu-vu-ha-van-tham-giai-doan-2-xay-ra-tai-cong-ty-tham-do-khai-thac-dau-khi/index.html"
-                                                        rel="bookmark"
-                                                        title="Sắp xét xử vụ Hà Văn Thắm giai đoạn 2 xảy ra tại Công ty thăm dò khai thác dầu khí">Sắp
-                                                        xét xử vụ Hà Văn Thắm giai đoạn 2 xảy ra tại
-                                                        Công ty thăm dò khai thác dầu khí</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/phap-luat/index.html"
-                                                        class="td-post-category">Pháp luật</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-16T10:54:36+00:00">16
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="sap-xet-xu-vu-ha-van-tham-giai-doan-2-xay-ra-tai-cong-ty-tham-do-khai-thac-dau-khi/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="dam-chet-ban-gai-do-bi-ngan-bo-tron-sau-khi-gay-an/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Đâm chết bạn gái do bị ngăn bỏ trốn sau khi gây án"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/pl-5.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="dam-chet-ban-gai-do-bi-ngan-bo-tron-sau-khi-gay-an/index.html"
-                                                        rel="bookmark"
-                                                        title="Đâm chết bạn gái do bị ngăn bỏ trốn sau khi gây án">Đâm
-                                                        chết bạn gái do bị ngăn bỏ trốn sau khi gây
-                                                        án</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/phap-luat/index.html"
-                                                        class="td-post-category">Pháp luật</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-16T10:50:45+00:00">16
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="dam-chet-ban-gai-do-bi-ngan-bo-tron-sau-khi-gay-an/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    @endforeach
                                 </div>
                             </div>
                         </div> <!-- ./block -->
@@ -3016,182 +2586,39 @@
                                 tdBlocksArray.push(block_td_uid_20_6541133a3f767);
                             </script>
                             <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Thế
-                                        giới</span></h4>
+                                <h4 class="td-block-title"><span class="td-pulldown-size">Xe</span></h4>
                             </div>
                             <div id=td_uid_20_6541133a3f767 class="td_block_inner td-column-2">
 
                                 <div class="td-block-row">
-
+                                    @foreach($xe as $xe)
                                     <div class="td-block-span4">
 
                                         <div class="td_module_mx4 td_module_wrap td-animation-stack">
                                             <div class="td-module-image">
                                                 <div class="td-module-thumb"><a
-                                                        href="nhieu-tieng-sung-no-ben-ngoai-tru-so-bo-quoc-phong-sudan/index.html"
+                                                        href="/chi-tiet-tin-tuc/{{$xe->slug}}"
                                                         rel="bookmark" class="td-image-wrap"
-                                                        title="Nhiều tiếng súng nổ bên ngoài trụ sở bộ Quốc phòng Sudan"><img
+                                                        title="{{$xe->title}}"><img
                                                             class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
+                                                            src="/storage/{{$xe->thumbnail}}"
                                                             alt=""
-                                                            title="Nhiều tiếng súng nổ bên ngoài trụ sở bộ Quốc phòng Sudan"
+                                                            title="{{$xe->title}}"
                                                             data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-9-218x150.jpg"
+                                                            data-img-url="/storage/{{$xe->thumbnail}}"
                                                             width="218" height="150" /></a></div>
                                             </div>
 
                                             <h3 class="entry-title td-module-title"><a
-                                                    href="nhieu-tieng-sung-no-ben-ngoai-tru-so-bo-quoc-phong-sudan/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$xe->slug}}"
                                                     rel="bookmark"
-                                                    title="Nhiều tiếng súng nổ bên ngoài trụ sở bộ Quốc phòng Sudan">Nhiều
-                                                    tiếng súng nổ bên ngoài trụ sở bộ Quốc phòng...</a>
+                                                    title="{{$xe->title}}">{{$xe->title}}</a>
                                             </h3>
                                         </div>
 
 
                                     </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="nga-sap-ra-mat-he-thong-ten-lua-phong-khong-tan-tien-s-500/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Nga sắp ra mắt hệ thống tên lửa phòng không tân tiến S-500"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Nga sắp ra mắt hệ thống tên lửa phòng không tân tiến S-500"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-8-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="nga-sap-ra-mat-he-thong-ten-lua-phong-khong-tan-tien-s-500/index.html"
-                                                    rel="bookmark"
-                                                    title="Nga sắp ra mắt hệ thống tên lửa phòng không tân tiến S-500">Nga
-                                                    sắp ra mắt hệ thống tên lửa phòng không tân...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="dien-kremlin-bat-ngo-len-tieng-ve-thong-tin-ong-kim-jong-un-co-the-toi-nga-vao-tuan-toi/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Điện Kremlin bất ngờ lên tiếng về thông tin ông Kim Jong-un có thể tới Nga vào tuần tới"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Điện Kremlin bất ngờ lên tiếng về thông tin ông Kim Jong-un có thể tới Nga vào tuần tới"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-7-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="dien-kremlin-bat-ngo-len-tieng-ve-thong-tin-ong-kim-jong-un-co-the-toi-nga-vao-tuan-toi/index.html"
-                                                    rel="bookmark"
-                                                    title="Điện Kremlin bất ngờ lên tiếng về thông tin ông Kim Jong-un có thể tới Nga vào tuần tới">Điện
-                                                    Kremlin bất ngờ lên tiếng về thông tin ông
-                                                    Kim...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-                                </div><!--./row-fluid-->
-
-                                <div class="td-block-row">
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="my-hop-kin-de-xuat-su-dung-quan-su-o-venezuela-doi-tac-nam-my-mien-cuong/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Mỹ &#8220;họp kín&#8221; đề xuất sử dụng quân sự ở Venezuela, đối tác Nam Mỹ miễn cưỡng?"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Mỹ &#8220;họp kín&#8221; đề xuất sử dụng quân sự ở Venezuela, đối tác Nam Mỹ miễn cưỡng?"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-6-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="my-hop-kin-de-xuat-su-dung-quan-su-o-venezuela-doi-tac-nam-my-mien-cuong/index.html"
-                                                    rel="bookmark"
-                                                    title="Mỹ &#8220;họp kín&#8221; đề xuất sử dụng quân sự ở Venezuela, đối tác Nam Mỹ miễn cưỡng?">Mỹ
-                                                    &#8220;họp kín&#8221; đề xuất sử dụng quân sự ở
-                                                    Venezuela,...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="ty-phu-phap-ung-ho-hon-110-trieu-usd-de-xay-dung-lai-trai-tim-nuoc-phap-sau-vu-hoa-hoan-chan-dong/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Tỷ phú Pháp ủng hộ hơn 110 triệu USD để xây dựng lại &#8220;Trái tim nước Pháp&#8221; sau vụ hỏa hoạn chấn động"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Tỷ phú Pháp ủng hộ hơn 110 triệu USD để xây dựng lại &#8220;Trái tim nước Pháp&#8221; sau vụ hỏa hoạn chấn động"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-5-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="ty-phu-phap-ung-ho-hon-110-trieu-usd-de-xay-dung-lai-trai-tim-nuoc-phap-sau-vu-hoa-hoan-chan-dong/index.html"
-                                                    rel="bookmark"
-                                                    title="Tỷ phú Pháp ủng hộ hơn 110 triệu USD để xây dựng lại &#8220;Trái tim nước Pháp&#8221; sau vụ hỏa hoạn chấn động">Tỷ
-                                                    phú Pháp ủng hộ hơn 110 triệu USD để xây...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="phap-khong-dung-cach-cuu-hoa-ong-trump-goi-y-vi-so-nha-tho-duc-ba-paris-do-sup/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Pháp không dùng cách cứu hỏa ông Trump gợi ý vì sợ Nhà thờ Đức Bà Paris đổ sụp"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Pháp không dùng cách cứu hỏa ông Trump gợi ý vì sợ Nhà thờ Đức Bà Paris đổ sụp"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/tg-4-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="phap-khong-dung-cach-cuu-hoa-ong-trump-goi-y-vi-so-nha-tho-duc-ba-paris-do-sup/index.html"
-                                                    rel="bookmark"
-                                                    title="Pháp không dùng cách cứu hỏa ông Trump gợi ý vì sợ Nhà thờ Đức Bà Paris đổ sụp">Pháp
-                                                    không dùng cách cứu hỏa ông Trump gợi ý vì...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
+                                    @endforeach
                                 </div><!--./row-fluid-->
                             </div>
                         </div> <!-- ./block -->
@@ -3444,1551 +2871,99 @@
                                 tdBlocksArray.push(block_td_uid_21_6541133a45c9f);
                             </script>
                             <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Kinh
-                                        doanh</span></h4>
+                                <h4 class="td-block-title"><span class="td-pulldown-size">Phụ kiện - Linh kiện</span></h4>
                             </div>
                             <div id=td_uid_21_6541133a45c9f class="td_block_inner td-mc1-wrap">
+                                @if($phukien)
                                 <div class="td_module_flex_1 td_module_wrap td-animation-stack">
                                     <div class="td-module-container td-category-pos-image">
                                         <div class="td-image-container">
-                                            <a href="category/kinh-doanh/index.html" class="td-post-category">Kinh
-                                                doanh</a>
+                                            <a href="/phu-kien-link-kien" class="td-post-category">Phụ kiện - linh kiện</a>
                                             <div class="td-module-thumb"><a
-                                                    href="dam-bao-cung-cap-dien-an-toan-on-dinh-va-chat-luong-phuc-vu-dip-gio-to-hung-vuong/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$phukien->slug}}"
                                                     rel="bookmark" class="td-image-wrap"
-                                                    title="Đảm bảo cung cấp điện an toàn, ổn định và chất lượng phục vụ dịp Giỗ Tổ Hùng Vương"><span
+                                                    title="{{$phukien->title}}"><span
                                                         class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/kd-9-696x464.jpg"></span></a>
+                                                        data-img-url="/storage/{{$phukien->thumbnail}}"></span></a>
                                             </div>
                                         </div>
 
                                         <div class="td-module-meta-info">
 
                                             <h3 class="entry-title td-module-title"><a
-                                                    href="dam-bao-cung-cap-dien-an-toan-on-dinh-va-chat-luong-phuc-vu-dip-gio-to-hung-vuong/index.html"
+                                                    href="/chi-tiet-tin-tuc/{{$phukien->slug}}"
                                                     rel="bookmark"
-                                                    title="Đảm bảo cung cấp điện an toàn, ổn định và chất lượng phục vụ dịp Giỗ Tổ Hùng Vương">Đảm
-                                                    bảo cung cấp điện an toàn, ổn định và chất lượng
-                                                    phục vụ dịp Giỗ Tổ Hùng Vương</a></h3>
+                                                    title="{{$phukien->title}}">{{$phukien->title}}</a></h3>
 
                                             <div class="td-editor-date">
 
                                                 <span class="td-author-date">
                                                     <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
+                                                            href="/phu-kien-link-kien">mona</a>
                                                         <span>-</span> </span> <span class="td-post-date"><time
                                                             class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T03:43:20+00:00">17
-                                                            Tháng Tư, 2019</time></span>
+                                                            datetime="2019-04-17T03:43:20+00:00">21
+                                                            Tháng Mười Một, 2023</time></span>
                                                     <div class="td-module-comments"><a
-                                                            href="dam-bao-cung-cap-dien-an-toan-on-dinh-va-chat-luong-phuc-vu-dip-gio-to-hung-vuong/index.html#respond">0</a>
+                                                            href="/chi-tiet-tin-tuc/{{$phukien->slug}}">0</a>
                                                     </div>
                                                 </span>
                                             </div>
 
-                                            <div class="td-excerpt">Để cung cấp điện tuyệt đối an toàn
-                                                trong các ngày lễ Giỗ Tổ Hùng Vương, kỷ niệm 44 năm Ngày
-                                                Giải phóng miền...</div>
+                                            <div class="td-excerpt">{!! $phukien->excerpt !!}</div>
                                             <div class="td-read-more">
                                                 <a
-                                                    href="dam-bao-cung-cap-dien-an-toan-on-dinh-va-chat-luong-phuc-vu-dip-gio-to-hung-vuong/index.html">Xem
+                                                    href="/chi-tiet-tin-tuc/{{$phukien->slug}}">Xem
                                                     thêm</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                @endif
 
                                 <div class="td_module_column">
+                                    @foreach($phukiens as $pks)
                                     <div class="td_module_flex_3 td_module_wrap td-animation-stack">
                                         <div class="td-module-container td-category-pos-">
                                             <div class="td-image-container">
                                                 <div class="td-module-thumb"><a
-                                                        href="lam-nhan-vien-cua-ty-phu-jack-ma-dung-mo-ngay-lam-8-tieng-tuan-nghi-2-ngay/index.html"
+                                                        href="/chi-tiet-tin-tuc/{{$pks->slug}}"
                                                         rel="bookmark" class="td-image-wrap"
-                                                        title="Làm nhân viên của tỷ phú Jack Ma, đừng mơ ngày làm 8 tiếng, tuần nghỉ 2 ngày"><span
+                                                        title="{{$pks->title}}"><span
                                                             class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/kd-8-696x444.jpg"></span></a>
+                                                            data-img-url="/storage/{{$pks->thumbnail}}"></span></a>
                                                 </div>
                                             </div>
 
                                             <div class="td-module-meta-info">
 
                                                 <h3 class="entry-title td-module-title"><a
-                                                        href="lam-nhan-vien-cua-ty-phu-jack-ma-dung-mo-ngay-lam-8-tieng-tuan-nghi-2-ngay/index.html"
+                                                        href="/chi-tiet-tin-tuc/{{$pks->slug}}"
                                                         rel="bookmark"
-                                                        title="Làm nhân viên của tỷ phú Jack Ma, đừng mơ ngày làm 8 tiếng, tuần nghỉ 2 ngày">Làm
-                                                        nhân viên của tỷ phú Jack Ma, đừng mơ ngày làm 8
-                                                        tiếng, tuần nghỉ 2 ngày</a></h3>
+                                                        title="{{$pks->title}}">{{$pks->title}}</a></h3>
                                                 <div class="td-editor-date">
-                                                    <a href="category/kinh-doanh/index.html"
-                                                        class="td-post-category">Kinh doanh</a>
+                                                    <a href="/tin-tuc/phu-kien-linh-kien"
+                                                        class="td-post-category">Phụ kiện -linh kiện</a>
                                                     <span class="td-author-date">
                                                         <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
+                                                                href="/chi-tiet-tin-tuc/{{$pks->slug}}">mona</a>
                                                             <span>-</span> </span> <span class="td-post-date"><time
                                                                 class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T03:41:11+00:00">17
-                                                                Tháng Tư, 2019</time></span>
+                                                                datetime="2019-04-17T03:41:11+00:00">21
+                                                                Tháng Mười Một, 2023</time></span>
                                                         <div class="td-module-comments"><a
-                                                                href="lam-nhan-vien-cua-ty-phu-jack-ma-dung-mo-ngay-lam-8-tieng-tuan-nghi-2-ngay/index.html#respond">0</a>
+                                                                href="/chi-tiet-tin-tuc/{{$pks->slug}}">0</a>
                                                         </div>
                                                     </span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="quy-tien-te-quoc-te-canh-bao-nhung-nguy-co-doi-voi-kinh-te-chau-a/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Quỹ Tiền tệ quốc tế cảnh báo những nguy cơ đối với kinh tế châu Á"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/kd-7.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="quy-tien-te-quoc-te-canh-bao-nhung-nguy-co-doi-voi-kinh-te-chau-a/index.html"
-                                                        rel="bookmark"
-                                                        title="Quỹ Tiền tệ quốc tế cảnh báo những nguy cơ đối với kinh tế châu Á">Quỹ
-                                                        Tiền tệ quốc tế cảnh báo những nguy cơ đối với
-                                                        kinh tế châu Á</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/kinh-doanh/index.html"
-                                                        class="td-post-category">Kinh doanh</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T03:39:42+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="quy-tien-te-quoc-te-canh-bao-nhung-nguy-co-doi-voi-kinh-te-chau-a/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="cong-ty-chong-a-hau-thanh-tu-doanh-thu-nghin-ty-loi-nhuan-chuc-ty/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Công ty chồng Á hậu Thanh Tú: Doanh thu nghìn tỷ, lợi nhuận chục tỷ"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/kd-6-696x325.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="cong-ty-chong-a-hau-thanh-tu-doanh-thu-nghin-ty-loi-nhuan-chuc-ty/index.html"
-                                                        rel="bookmark"
-                                                        title="Công ty chồng Á hậu Thanh Tú: Doanh thu nghìn tỷ, lợi nhuận chục tỷ">Công
-                                                        ty chồng Á hậu Thanh Tú: Doanh thu nghìn tỷ, lợi
-                                                        nhuận chục tỷ</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/kinh-doanh/index.html"
-                                                        class="td-post-category">Kinh doanh</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T03:38:13+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="cong-ty-chong-a-hau-thanh-tu-doanh-thu-nghin-ty-loi-nhuan-chuc-ty/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="gia-xang-co-the-tang-vao-ngay-mai-17-4/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Giá xăng có thể tăng vào ngày mai 17/4"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/kd-5.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="gia-xang-co-the-tang-vao-ngay-mai-17-4/index.html"
-                                                        rel="bookmark"
-                                                        title="Giá xăng có thể tăng vào ngày mai 17/4">Giá
-                                                        xăng có thể tăng vào ngày mai 17/4</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/kinh-doanh/index.html"
-                                                        class="td-post-category">Kinh doanh</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T03:36:07+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="gia-xang-co-the-tang-vao-ngay-mai-17-4/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    @endforeach
                                 </div>
                             </div>
                         </div> <!-- ./block -->
-                        <div class="td_block_wrap td_block_15 td_uid_22_6541133a4e6fd_rand td-pb-border-top td_block_template_9 td-column-2 td_block_padding"
-                            data-td-block-uid="td_uid_22_6541133a4e6fd">
-                            <style>
-                                .td_uid_22_6541133a4e6fd_rand .td-block-title>* {
-                                    color: #8d0003 !important;
-                                }
-                            </style>
-                            <script>var block_td_uid_22_6541133a4e6fd = new tdBlock();
-                                block_td_uid_22_6541133a4e6fd.id = "td_uid_22_6541133a4e6fd";
-                                block_td_uid_22_6541133a4e6fd.atts = '{"limit":"6","custom_title":"\u0110\u1eddi s\u1ed1ng","block_template_id":"td_block_template_9","header_text_color":"#8d0003","category_id":"9","separator":"","custom_url":"","mx4_tl":"","post_ids":"","category_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","sort":"","offset":"","el_class":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","td_ajax_preloading":"","f_header_font_header":"","f_header_font_title":"Block header","f_header_font_settings":"","f_header_font_family":"","f_header_font_size":"","f_header_font_line_height":"","f_header_font_style":"","f_header_font_weight":"","f_header_font_transform":"","f_header_font_spacing":"","f_header_":"","f_ajax_font_title":"Ajax categories","f_ajax_font_settings":"","f_ajax_font_family":"","f_ajax_font_size":"","f_ajax_font_line_height":"","f_ajax_font_style":"","f_ajax_font_weight":"","f_ajax_font_transform":"","f_ajax_font_spacing":"","f_ajax_":"","f_more_font_title":"Load more button","f_more_font_settings":"","f_more_font_family":"","f_more_font_size":"","f_more_font_line_height":"","f_more_font_style":"","f_more_font_weight":"","f_more_font_transform":"","f_more_font_spacing":"","f_more_":"","mx4f_title_font_header":"","mx4f_title_font_title":"Article title","mx4f_title_font_settings":"","mx4f_title_font_family":"","mx4f_title_font_size":"","mx4f_title_font_line_height":"","mx4f_title_font_style":"","mx4f_title_font_weight":"","mx4f_title_font_transform":"","mx4f_title_font_spacing":"","mx4f_title_":"","mx4f_cat_font_title":"Article category tag","mx4f_cat_font_settings":"","mx4f_cat_font_family":"","mx4f_cat_font_size":"","mx4f_cat_font_line_height":"","mx4f_cat_font_style":"","mx4f_cat_font_weight":"","mx4f_cat_font_transform":"","mx4f_cat_font_spacing":"","mx4f_cat_":"","ajax_pagination":"","ajax_pagination_infinite_stop":"","css":"","tdc_css":"","td_column_number":2,"header_color":"","color_preset":"","border_top":"","class":"td_uid_22_6541133a4e6fd_rand","tdc_css_class":"td_uid_22_6541133a4e6fd_rand","tdc_css_class_style":"td_uid_22_6541133a4e6fd_rand_style"}';
-                                block_td_uid_22_6541133a4e6fd.td_column_number = "2";
-                                block_td_uid_22_6541133a4e6fd.block_type = "td_block_15";
-                                block_td_uid_22_6541133a4e6fd.post_count = "6";
-                                block_td_uid_22_6541133a4e6fd.found_posts = "9";
-                                block_td_uid_22_6541133a4e6fd.header_color = "";
-                                block_td_uid_22_6541133a4e6fd.ajax_pagination_infinite_stop = "";
-                                block_td_uid_22_6541133a4e6fd.max_num_pages = "2";
-                                tdBlocksArray.push(block_td_uid_22_6541133a4e6fd);
-                            </script>
-                            <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Đời
-                                        sống</span></h4>
-                            </div>
-                            <div id=td_uid_22_6541133a4e6fd class="td_block_inner td-column-2">
-
-                                <div class="td-block-row">
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="xuat-hien-vi-khuan-khang-moi-loai-khang-sinh-o-viet-nam-benh-nhan-co-the-tu-vong-chi-vi-ho/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Xuất hiện vi khuẩn kháng mọi loại kháng sinh ở Việt Nam: Bệnh nhân có thể tử vong chỉ vì&#8230; ho"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Xuất hiện vi khuẩn kháng mọi loại kháng sinh ở Việt Nam: Bệnh nhân có thể tử vong chỉ vì&#8230; ho"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-9-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="xuat-hien-vi-khuan-khang-moi-loai-khang-sinh-o-viet-nam-benh-nhan-co-the-tu-vong-chi-vi-ho/index.html"
-                                                    rel="bookmark"
-                                                    title="Xuất hiện vi khuẩn kháng mọi loại kháng sinh ở Việt Nam: Bệnh nhân có thể tử vong chỉ vì&#8230; ho">Xuất
-                                                    hiện vi khuẩn kháng mọi loại kháng sinh ở
-                                                    Việt...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="hai-thoi-diem-tam-tot-nhat-trong-ngay-giup-co-the-duong-sinh/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Hai thời điểm tắm tốt nhất trong ngày giúp cơ thể dưỡng sinh"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Hai thời điểm tắm tốt nhất trong ngày giúp cơ thể dưỡng sinh"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-8-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="hai-thoi-diem-tam-tot-nhat-trong-ngay-giup-co-the-duong-sinh/index.html"
-                                                    rel="bookmark"
-                                                    title="Hai thời điểm tắm tốt nhất trong ngày giúp cơ thể dưỡng sinh">Hai
-                                                    thời điểm tắm tốt nhất trong ngày giúp cơ thể...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="kinh-vuong-nao-bo-san-pham-bao-ve-suc-khoe-ho-tro-cac-chuc-nang-nao-bo-giup-day-lui-di-chung-nao/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Kinh Vương Não Bộ &#8211; Sản phẩm bảo vệ sức khỏe hỗ trợ các chức năng não bộ giúp đẩy lùi di chứng não"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Kinh Vương Não Bộ &#8211; Sản phẩm bảo vệ sức khỏe hỗ trợ các chức năng não bộ giúp đẩy lùi di chứng não"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-7-218x150.png"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="kinh-vuong-nao-bo-san-pham-bao-ve-suc-khoe-ho-tro-cac-chuc-nang-nao-bo-giup-day-lui-di-chung-nao/index.html"
-                                                    rel="bookmark"
-                                                    title="Kinh Vương Não Bộ &#8211; Sản phẩm bảo vệ sức khỏe hỗ trợ các chức năng não bộ giúp đẩy lùi di chứng não">Kinh
-                                                    Vương Não Bộ &#8211; Sản phẩm bảo vệ sức khỏe...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-                                </div><!--./row-fluid-->
-
-                                <div class="td-block-row">
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="han-quoc-chinh-thuc-bai-bo-luat-cam-pha-thai-sau-hon-66-nam/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Hàn Quốc chính thức bãi bỏ luật cấm phá thai sau hơn 66 năm"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Hàn Quốc chính thức bãi bỏ luật cấm phá thai sau hơn 66 năm"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-6-218x150.jpeg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="han-quoc-chinh-thuc-bai-bo-luat-cam-pha-thai-sau-hon-66-nam/index.html"
-                                                    rel="bookmark"
-                                                    title="Hàn Quốc chính thức bãi bỏ luật cấm phá thai sau hơn 66 năm">Hàn
-                                                    Quốc chính thức bãi bỏ luật cấm phá thai sau...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="chot-danh-sach-20-cau-thu-u18-viet-nam-tham-du-giai-u18-quoc-te/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Chốt danh sách 20 cầu thủ U18 Việt Nam tham dự giải U18 Quốc tế"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Chốt danh sách 20 cầu thủ U18 Việt Nam tham dự giải U18 Quốc tế"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-5-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="chot-danh-sach-20-cau-thu-u18-viet-nam-tham-du-giai-u18-quoc-te/index.html"
-                                                    rel="bookmark"
-                                                    title="Chốt danh sách 20 cầu thủ U18 Việt Nam tham dự giải U18 Quốc tế">Chốt
-                                                    danh sách 20 cầu thủ U18 Việt Nam tham dự...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="nhat-duoc-50-trieu-dong-len-facebook-tim-chu-nhan-tra-lai/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Nhặt được 50 triệu đồng lên Facebook tìm chủ nhân trả lại"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Nhặt được 50 triệu đồng lên Facebook tìm chủ nhân trả lại"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/ds-4-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="nhat-duoc-50-trieu-dong-len-facebook-tim-chu-nhan-tra-lai/index.html"
-                                                    rel="bookmark"
-                                                    title="Nhặt được 50 triệu đồng lên Facebook tìm chủ nhân trả lại">Nhặt
-                                                    được 50 triệu đồng lên Facebook tìm chủ nhân
-                                                    trả...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-                                </div><!--./row-fluid-->
-                            </div>
-                        </div> <!-- ./block -->
-                        <div class="clearfix"></div>
-                        <div class="td_block_wrap td_flex_block_3 td_uid_23_6541133a55459_rand td-pb-border-top td_block_template_9 td_flex_block"
-                            data-td-block-uid="td_uid_23_6541133a55459">
-                            <style>
-                                .td_uid_23_6541133a55459_rand .td-block-title>* {
-                                    color: #8d0003 !important;
-                                }
-                            </style>
-                            <style>
-                                /* custom css */
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 {
-                                    width: 50%;
-                                    float: left;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_column {
-                                    width: 50%;
-                                    float: left;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 {
-                                    width: 100%;
-                                    float: left;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_wrap {
-                                    padding-left: 24px;
-                                    padding-right: 24px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_block_inner {
-                                    margin-left: -24px;
-                                    margin-right: -24px;
-                                }
-
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 {
-                                    padding-bottom: 0px;
-                                    margin-bottom: 0px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-module-container:before {
-                                    bottom: -0px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 {
-                                    padding-bottom: 13px;
-                                    margin-bottom: 13px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-module-container:before {
-                                    bottom: -13px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_column:last-child .td_module_flex_3:last-child {
-                                    margin-bottom: 0 !important;
-                                    padding-bottom: 0 !important;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3:last-child .td-module-container:before {
-                                    display: none;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-module-container:before {
-                                    border-width: 0 0 1px 0;
-                                    border-style: none;
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-module-container:before {
-                                    border-width: 0 0 1px 0;
-                                    border-style: none;
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-module-container:before {
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-module-container:before {
-                                    border-color: #eaeaea;
-                                }
-
-
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .entry-thumb {
-                                    background-position: center 50%;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .entry-thumb {
-                                    background-position: center 50%;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-image-container {
-                                    flex: 0 0 30%;
-                                    width: 30%;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    width: 20px;
-                                    height: 20px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    width: 20px;
-                                    height: 20px;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    margin-right: 6px;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    margin-right: 6px;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    border-radius: 50%;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    border-radius: 50%;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-post-category {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-post-category {
-                                    display: none;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-excerpt {
-                                    display: block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-post-author-name {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-post-author-name {
-                                    display: none;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-post-date,
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-post-author-name span {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-post-date,
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-post-author-name span {
-                                    display: inline-block;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .entry-review-stars {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .entry-review-stars {
-                                    display: inline-block;
-                                }
-
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-module-comments {
-                                    display: block;
-                                }
-
-                                .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-module-comments {
-                                    display: none;
-                                }
-
-                                /* landscape */
-                                @media (min-width: 1019px) and (max-width: 1140px) {
-                                    .td_uid_23_6541133a55459_rand .td_module_wrap {
-                                        padding-left: 20px;
-                                        padding-right: 20px;
-                                    }
-
-                                    .td_uid_23_6541133a55459_rand .td_block_inner {
-                                        margin-left: -20px;
-                                        margin-right: -20px;
-                                    }
-                                }
-
-                                /* portrait */
-                                @media (min-width: 768px) and (max-width: 1018px) {
-                                    .td_uid_23_6541133a55459_rand .td_module_wrap {
-                                        padding-left: 14px;
-                                        padding-right: 14px;
-                                    }
-
-                                    .td_uid_23_6541133a55459_rand .td_block_inner {
-                                        margin-left: -14px;
-                                        margin-right: -14px;
-                                    }
-
-
-
-                                    .td_uid_23_6541133a55459_rand .td_module_flex_3 .td-image-container {
-                                        flex: 0 0 35%;
-                                        width: 35%;
-                                    }
-                                }
-
-                                /* phone */
-                                @media (max-width: 767px) {
-                                    .td_uid_23_6541133a55459_rand .td_module_flex_1 {
-                                        width: 100%;
-                                        float: left;
-                                    }
-
-                                    .td_uid_23_6541133a55459_rand .td_module_column {
-                                        width: 100%;
-                                        float: left;
-                                    }
-
-                                    .td_uid_23_6541133a55459_rand .td_module_flex_1 {
-                                        padding-bottom: 10.5px;
-                                        margin-bottom: 10.5px;
-                                    }
-
-                                    .td_uid_23_6541133a55459_rand .td_module_flex_1 .td-module-container:before {
-                                        bottom: -10.5px;
-                                    }
-                                }
-                            </style>
-                            <script>var block_td_uid_23_6541133a55459 = new tdBlock();
-                                block_td_uid_23_6541133a55459.id = "td_uid_23_6541133a55459";
-                                block_td_uid_23_6541133a55459.atts = '{"modules_category":"image","modules_on_row":"eyJhbGwiOiI1MCUiLCJsYW5kc2NhcGUiOiIxMDAlIn0=","modules_category1":"image","show_cat2":"none","show_com2":"none","show_author2":"none","columns":"eyJhbGwiOiI1MCUiLCJwaG9uZSI6IjEwMCUifQ==","columns_gap":"eyJsYW5kc2NhcGUiOiI0MCIsInBvcnRyYWl0IjoiMjgifQ==","image_width2":"eyJwb3J0cmFpdCI6IjM1In0=","modules_space1":"eyJhbGwiOiIwIiwicGhvbmUiOiIyMSJ9","category_id":"10","custom_title":"Gi\u1ea3i tr\u00ed","block_template_id":"td_block_template_9","header_text_color":"#8d0003","separator":"","custom_url":"","mc1_tl":"","mc1_el":"","mc3_tl":"","post_ids":"","category_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","sort":"","limit":"5","offset":"","el_class":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","td_ajax_preloading":"","h_effect":"","modules_divider1":"","modules_divider_color1":"#eaeaea","image_size":"","image_alignment1":"50","image_height1":"","image_radius1":"","hide_image":"","meta_info_align1":"","meta_info_horiz1":"content-horiz-left","meta_width1":"","meta_margin1":"","meta_padding1":"","art_title1":"","art_excerpt1":"","modules_category_margin1":"","modules_category_padding1":"","modules_category_radius1":"0","show_cat1":"inline-block","show_author1":"inline-block","author_photo":"","author_photo_size1":"","author_photo_space1":"","author_photo_radius1":"","show_date1":"inline-block","show_review1":"inline-block","show_com1":"block","show_excerpt1":"block","excerpt_middle":"","modules_space2":"26","modules_divider2":"","modules_divider_color2":"#eaeaea","image_size2":"","image_alignment2":"50","image_height2":"","image_radius2":"","hide_image2":"","meta_info_horiz2":"content-horiz-left","meta_width2":"","meta_margin2":"","meta_padding2":"","art_title2":"","modules_category2":"","modules_category_margin2":"","modules_category_padding2":"","modules_category_radius2":"0","author_photo2":"","author_photo_size2":"","author_photo_space2":"","author_photo_radius2":"","show_date2":"inline-block","show_review2":"inline-block","f_header_font_header":"","f_header_font_title":"Block header","f_header_font_settings":"","f_header_font_family":"","f_header_font_size":"","f_header_font_line_height":"","f_header_font_style":"","f_header_font_weight":"","f_header_font_transform":"","f_header_font_spacing":"","f_header_":"","f_ajax_font_title":"Ajax categories","f_ajax_font_settings":"","f_ajax_font_family":"","f_ajax_font_size":"","f_ajax_font_line_height":"","f_ajax_font_style":"","f_ajax_font_weight":"","f_ajax_font_transform":"","f_ajax_font_spacing":"","f_ajax_":"","f_more_font_title":"Load more button","f_more_font_settings":"","f_more_font_family":"","f_more_font_size":"","f_more_font_line_height":"","f_more_font_style":"","f_more_font_weight":"","f_more_font_transform":"","f_more_font_spacing":"","f_more_":"","f_title1_font_header":"","f_title1_font_title":"Article title 1","f_title1_font_settings":"","f_title1_font_family":"","f_title1_font_size":"","f_title1_font_line_height":"","f_title1_font_style":"","f_title1_font_weight":"","f_title1_font_transform":"","f_title1_font_spacing":"","f_title1_":"","f_cat1_font_title":"Article category tag 1","f_cat1_font_settings":"","f_cat1_font_family":"","f_cat1_font_size":"","f_cat1_font_line_height":"","f_cat1_font_style":"","f_cat1_font_weight":"","f_cat1_font_transform":"","f_cat1_font_spacing":"","f_cat1_":"","f_meta1_font_title":"Article meta info 1","f_meta1_font_settings":"","f_meta1_font_family":"","f_meta1_font_size":"","f_meta1_font_line_height":"","f_meta1_font_style":"","f_meta1_font_weight":"","f_meta1_font_transform":"","f_meta1_font_spacing":"","f_meta1_":"","f_ex1_font_title":"Article excerpt 1","f_ex1_font_settings":"","f_ex1_font_family":"","f_ex1_font_size":"","f_ex1_font_line_height":"","f_ex1_font_style":"","f_ex1_font_weight":"","f_ex1_font_transform":"","f_ex1_font_spacing":"","f_ex1_":"","f_title2_font_title":"Article title 2","f_title2_font_settings":"","f_title2_font_family":"","f_title2_font_size":"","f_title2_font_line_height":"","f_title2_font_style":"","f_title2_font_weight":"","f_title2_font_transform":"","f_title2_font_spacing":"","f_title2_":"","f_cat2_font_title":"Article category tag 2","f_cat2_font_settings":"","f_cat2_font_family":"","f_cat2_font_size":"","f_cat2_font_line_height":"","f_cat2_font_style":"","f_cat2_font_weight":"","f_cat2_font_transform":"","f_cat2_font_spacing":"","f_cat2_":"","f_meta2_font_title":"Article meta info 2","f_meta2_font_settings":"","f_meta2_font_family":"","f_meta2_font_size":"","f_meta2_font_line_height":"","f_meta2_font_style":"","f_meta2_font_weight":"","f_meta2_font_transform":"","f_meta2_font_spacing":"","f_meta2_":"","shadow_shadow_header":"","shadow_shadow_title":"Module Shadow","shadow_shadow_size":"","shadow_shadow_offset_horizontal":"","shadow_shadow_offset_vertical":"","shadow_shadow_spread":"","shadow_shadow_color":"","meta_bg":"","title_txt":"","title_txt_hover":"","cat_bg":"","cat_bg_hover":"","cat_txt":"","cat_txt_hover":"","author_txt":"","author_txt_hover":"","date_txt":"","ex_txt":"","com_bg":"","com_txt":"","pag_text":"","pag_h_text":"","pag_bg":"","pag_h_bg":"","pag_border":"","pag_h_border":"","btn_title":"","ajax_pagination":"","ajax_pagination_infinite_stop":"","css":"","tdc_css":"","td_column_number":2,"header_color":"","color_preset":"","border_top":"","class":"td_uid_23_6541133a55459_rand","tdc_css_class":"td_uid_23_6541133a55459_rand","tdc_css_class_style":"td_uid_23_6541133a55459_rand_style"}';
-                                block_td_uid_23_6541133a55459.td_column_number = "2";
-                                block_td_uid_23_6541133a55459.block_type = "td_flex_block_3";
-                                block_td_uid_23_6541133a55459.post_count = "5";
-                                block_td_uid_23_6541133a55459.found_posts = "6";
-                                block_td_uid_23_6541133a55459.header_color = "";
-                                block_td_uid_23_6541133a55459.ajax_pagination_infinite_stop = "";
-                                block_td_uid_23_6541133a55459.max_num_pages = "2";
-                                tdBlocksArray.push(block_td_uid_23_6541133a55459);
-                            </script>
-                            <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Giải
-                                        trí</span></h4>
-                            </div>
-                            <div id=td_uid_23_6541133a55459 class="td_block_inner td-mc1-wrap">
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-image">
-                                        <div class="td-image-container">
-                                            <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                trí</a>
-                                            <div class="td-module-thumb"><a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Ngô Thanh Vân chia sẻ lý do chọn &#8220;tình một đêm&#8221; thay cho mối quan hệ lâu dài"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-7-696x464.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html"
-                                                    rel="bookmark"
-                                                    title="Ngô Thanh Vân chia sẻ lý do chọn &#8220;tình một đêm&#8221; thay cho mối quan hệ lâu dài">Ngô
-                                                    Thanh Vân chia sẻ lý do chọn &#8220;tình một
-                                                    đêm&#8221; thay cho mối quan hệ lâu dài</a></h3>
-
-                                            <div class="td-editor-date">
-
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T07:45:04+00:00">17
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Ngô Thanh Vân chọn &quot;tình một
-                                                đêm&quot; vì không có nhiều thời gian để suy nghĩ và
-                                                “mối quan hệ lâu dài” càng ngày...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="ngo-thanh-van-chia-se-ly-do-chon-tinh-mot-dem-thay-cho-moi-quan-he-lau-dai/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="td_module_column">
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="tuan-vu-ket-hop-giao-linh-lam-dem-nhac/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Tuấn Vũ kết hợp Giao Linh làm đêm nhạc"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-6.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="tuan-vu-ket-hop-giao-linh-lam-dem-nhac/index.html"
-                                                        rel="bookmark"
-                                                        title="Tuấn Vũ kết hợp Giao Linh làm đêm nhạc">Tuấn
-                                                        Vũ kết hợp Giao Linh làm đêm nhạc</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                        trí</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T07:32:44+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="tuan-vu-ket-hop-giao-linh-lam-dem-nhac/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Ca sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm “mất mặt”"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-5-696x1044.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html"
-                                                        rel="bookmark"
-                                                        title="Ca sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm “mất mặt”">Ca
-                                                        sĩ Ngọc Anh tức giận vì bị đại gia buôn đất làm
-                                                        “mất mặt”</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                        trí</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T07:25:18+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="ca-si-ngoc-anh-tuc-gian-vi-bi-dai-gia-buon-dat-lam-mat-mat/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="viet-trinh-nu-hoang-thap-nien-90-tu-bo-danh-vong-lam-me-don-than/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Việt Trinh: “Nữ hoàng” thập niên 90 từ bỏ danh vọng, làm mẹ đơn thân"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-4.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="viet-trinh-nu-hoang-thap-nien-90-tu-bo-danh-vong-lam-me-don-than/index.html"
-                                                        rel="bookmark"
-                                                        title="Việt Trinh: “Nữ hoàng” thập niên 90 từ bỏ danh vọng, làm mẹ đơn thân">Việt
-                                                        Trinh: “Nữ hoàng” thập niên 90 từ bỏ danh vọng,
-                                                        làm mẹ đơn thân</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                        trí</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T07:21:24+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="viet-trinh-nu-hoang-thap-nien-90-tu-bo-danh-vong-lam-me-don-than/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="viet-huong-xin-tang-tai-tro-de-phau-thuat-cho-3-000-nguoi-khiem-khuyet/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Việt Hương xin tăng tài trợ để phẫu thuật cho 3.000 người khiếm khuyết"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/gt-3.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="viet-huong-xin-tang-tai-tro-de-phau-thuat-cho-3-000-nguoi-khiem-khuyet/index.html"
-                                                        rel="bookmark"
-                                                        title="Việt Hương xin tăng tài trợ để phẫu thuật cho 3.000 người khiếm khuyết">Việt
-                                                        Hương xin tăng tài trợ để phẫu thuật cho 3.000
-                                                        người khiếm khuyết</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/giai-tri/index.html" class="td-post-category">Giải
-                                                        trí</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T07:13:38+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="viet-huong-xin-tang-tai-tro-de-phau-thuat-cho-3-000-nguoi-khiem-khuyet/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> <!-- ./block -->
-                        <div class="td_block_wrap td_block_15 td_uid_24_6541133a5d5b3_rand td-pb-border-top td_block_template_9 td-column-2 td_block_padding"
-                            data-td-block-uid="td_uid_24_6541133a5d5b3">
-                            <style>
-                                .td_uid_24_6541133a5d5b3_rand .td-block-title>* {
-                                    color: #8d0003 !important;
-                                }
-                            </style>
-                            <script>var block_td_uid_24_6541133a5d5b3 = new tdBlock();
-                                block_td_uid_24_6541133a5d5b3.id = "td_uid_24_6541133a5d5b3";
-                                block_td_uid_24_6541133a5d5b3.atts = '{"limit":"6","custom_title":"Xe","block_template_id":"td_block_template_9","header_text_color":"#8d0003","category_id":"11","separator":"","custom_url":"","mx4_tl":"","post_ids":"","category_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","sort":"","offset":"","el_class":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","td_ajax_preloading":"","f_header_font_header":"","f_header_font_title":"Block header","f_header_font_settings":"","f_header_font_family":"","f_header_font_size":"","f_header_font_line_height":"","f_header_font_style":"","f_header_font_weight":"","f_header_font_transform":"","f_header_font_spacing":"","f_header_":"","f_ajax_font_title":"Ajax categories","f_ajax_font_settings":"","f_ajax_font_family":"","f_ajax_font_size":"","f_ajax_font_line_height":"","f_ajax_font_style":"","f_ajax_font_weight":"","f_ajax_font_transform":"","f_ajax_font_spacing":"","f_ajax_":"","f_more_font_title":"Load more button","f_more_font_settings":"","f_more_font_family":"","f_more_font_size":"","f_more_font_line_height":"","f_more_font_style":"","f_more_font_weight":"","f_more_font_transform":"","f_more_font_spacing":"","f_more_":"","mx4f_title_font_header":"","mx4f_title_font_title":"Article title","mx4f_title_font_settings":"","mx4f_title_font_family":"","mx4f_title_font_size":"","mx4f_title_font_line_height":"","mx4f_title_font_style":"","mx4f_title_font_weight":"","mx4f_title_font_transform":"","mx4f_title_font_spacing":"","mx4f_title_":"","mx4f_cat_font_title":"Article category tag","mx4f_cat_font_settings":"","mx4f_cat_font_family":"","mx4f_cat_font_size":"","mx4f_cat_font_line_height":"","mx4f_cat_font_style":"","mx4f_cat_font_weight":"","mx4f_cat_font_transform":"","mx4f_cat_font_spacing":"","mx4f_cat_":"","ajax_pagination":"","ajax_pagination_infinite_stop":"","css":"","tdc_css":"","td_column_number":2,"header_color":"","color_preset":"","border_top":"","class":"td_uid_24_6541133a5d5b3_rand","tdc_css_class":"td_uid_24_6541133a5d5b3_rand","tdc_css_class_style":"td_uid_24_6541133a5d5b3_rand_style"}';
-                                block_td_uid_24_6541133a5d5b3.td_column_number = "2";
-                                block_td_uid_24_6541133a5d5b3.block_type = "td_block_15";
-                                block_td_uid_24_6541133a5d5b3.post_count = "6";
-                                block_td_uid_24_6541133a5d5b3.found_posts = "7";
-                                block_td_uid_24_6541133a5d5b3.header_color = "";
-                                block_td_uid_24_6541133a5d5b3.ajax_pagination_infinite_stop = "";
-                                block_td_uid_24_6541133a5d5b3.max_num_pages = "2";
-                                tdBlocksArray.push(block_td_uid_24_6541133a5d5b3);
-                            </script>
-                            <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Xe</span></h4>
-                            </div>
-                            <div id=td_uid_24_6541133a5d5b3 class="td_block_inner td-column-2">
-
-                                <div class="td-block-row">
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="xuat-hien-mo-to-bay-gia-9-ty-nhu-trong-phim-vien-tuong/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Xuất hiện mô tô bay giá 9 tỷ như trong phim viễn tưởng"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Xuất hiện mô tô bay giá 9 tỷ như trong phim viễn tưởng"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-7-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="xuat-hien-mo-to-bay-gia-9-ty-nhu-trong-phim-vien-tuong/index.html"
-                                                    rel="bookmark"
-                                                    title="Xuất hiện mô tô bay giá 9 tỷ như trong phim viễn tưởng">Xuất
-                                                    hiện mô tô bay giá 9 tỷ như trong phim...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="xe-may-dien-pega-newtech-xe-tau-mang-mac-viet/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Xe máy điện Pega NewTech: Xe &#8220;tàu&#8221; mang mác Việt?"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Xe máy điện Pega NewTech: Xe &#8220;tàu&#8221; mang mác Việt?"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-6-218x150.png"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="xe-may-dien-pega-newtech-xe-tau-mang-mac-viet/index.html"
-                                                    rel="bookmark"
-                                                    title="Xe máy điện Pega NewTech: Xe &#8220;tàu&#8221; mang mác Việt?">Xe
-                                                    máy điện Pega NewTech: Xe &#8220;tàu&#8221; mang mác
-                                                    Việt?</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="curtiss-zeus-sieu-mo-to-dien-co-tam-hoat-dong-lon-nhat-the-gioi/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Curtiss Zeus: Siêu mô tô điện có tầm hoạt động lớn nhất thế giới"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Curtiss Zeus: Siêu mô tô điện có tầm hoạt động lớn nhất thế giới"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-5-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="curtiss-zeus-sieu-mo-to-dien-co-tam-hoat-dong-lon-nhat-the-gioi/index.html"
-                                                    rel="bookmark"
-                                                    title="Curtiss Zeus: Siêu mô tô điện có tầm hoạt động lớn nhất thế giới">Curtiss
-                                                    Zeus: Siêu mô tô điện có tầm hoạt động lớn...</a>
-                                            </h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-                                </div><!--./row-fluid-->
-
-                                <div class="td-block-row">
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="yamaha-freego-125-ke-ngang-duong-honda-air-blade-chinh-thuc-tham-chien-thi-truong-viet/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Yamaha FreeGo 125 &#8211; &#8220;Kẻ ngáng đường&#8221; Honda Air Blade chính thức tham chiến thị trường Việt"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Yamaha FreeGo 125 &#8211; &#8220;Kẻ ngáng đường&#8221; Honda Air Blade chính thức tham chiến thị trường Việt"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-4-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="yamaha-freego-125-ke-ngang-duong-honda-air-blade-chinh-thuc-tham-chien-thi-truong-viet/index.html"
-                                                    rel="bookmark"
-                                                    title="Yamaha FreeGo 125 &#8211; &#8220;Kẻ ngáng đường&#8221; Honda Air Blade chính thức tham chiến thị trường Việt">Yamaha
-                                                    FreeGo 125 &#8211; &#8220;Kẻ ngáng đường&#8221;
-                                                    Honda Air Blade chính...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="hang-sieu-xe-dat-do-nhat-the-gioi-sap-co-them-san-pham-moi/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Hãng siêu xe đắt đỏ nhất thế giới sắp có thêm sản phẩm mới"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Hãng siêu xe đắt đỏ nhất thế giới sắp có thêm sản phẩm mới"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-3-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="hang-sieu-xe-dat-do-nhat-the-gioi-sap-co-them-san-pham-moi/index.html"
-                                                    rel="bookmark"
-                                                    title="Hãng siêu xe đắt đỏ nhất thế giới sắp có thêm sản phẩm mới">Hãng
-                                                    siêu xe đắt đỏ nhất thế giới sắp có thêm...</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-
-                                    <div class="td-block-span4">
-
-                                        <div class="td_module_mx4 td_module_wrap td-animation-stack">
-                                            <div class="td-module-image">
-                                                <div class="td-module-thumb"><a
-                                                        href="co-hoi-nao-cho-xe-peugeot-traveller-2019-tai-viet-nam/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Cơ hội nào cho xe Peugeot Traveller 2019 tại Việt Nam?"><img
-                                                            class="entry-thumb"
-                                                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAANoAAACWAQMAAACCSQSPAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABpJREFUWMPtwQENAAAAwiD7p7bHBwwAAAAg7RD+AAGXD7BoAAAAAElFTkSuQmCC"
-                                                            alt=""
-                                                            title="Cơ hội nào cho xe Peugeot Traveller 2019 tại Việt Nam?"
-                                                            data-type="image_tag"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/xe-2-218x150.jpg"
-                                                            width="218" height="150" /></a></div>
-                                            </div>
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="co-hoi-nao-cho-xe-peugeot-traveller-2019-tai-viet-nam/index.html"
-                                                    rel="bookmark"
-                                                    title="Cơ hội nào cho xe Peugeot Traveller 2019 tại Việt Nam?">Cơ
-                                                    hội nào cho xe Peugeot Traveller 2019 tại Việt
-                                                    Nam?</a></h3>
-                                        </div>
-
-
-                                    </div> <!-- ./td-block-span4 -->
-                                </div><!--./row-fluid-->
-                            </div>
-                        </div> <!-- ./block -->
-                        <div class="clearfix"></div>
-                        <div class="td_block_wrap td_flex_block_3 td_uid_25_6541133a642c2_rand td-pb-border-top td_block_template_9 td_flex_block"
-                            data-td-block-uid="td_uid_25_6541133a642c2">
-                            <style>
-                                .td_uid_25_6541133a642c2_rand .td-block-title>* {
-                                    color: #8d0003 !important;
-                                }
-                            </style>
-                            <style>
-                                /* custom css */
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 {
-                                    width: 50%;
-                                    float: left;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_column {
-                                    width: 50%;
-                                    float: left;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 {
-                                    width: 100%;
-                                    float: left;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_wrap {
-                                    padding-left: 24px;
-                                    padding-right: 24px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_block_inner {
-                                    margin-left: -24px;
-                                    margin-right: -24px;
-                                }
-
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 {
-                                    padding-bottom: 0px;
-                                    margin-bottom: 0px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-module-container:before {
-                                    bottom: -0px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 {
-                                    padding-bottom: 13px;
-                                    margin-bottom: 13px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-module-container:before {
-                                    bottom: -13px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_column:last-child .td_module_flex_3:last-child {
-                                    margin-bottom: 0 !important;
-                                    padding-bottom: 0 !important;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3:last-child .td-module-container:before {
-                                    display: none;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-module-container:before {
-                                    border-width: 0 0 1px 0;
-                                    border-style: none;
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-module-container:before {
-                                    border-width: 0 0 1px 0;
-                                    border-style: none;
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-module-container:before {
-                                    border-color: #eaeaea;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-module-container:before {
-                                    border-color: #eaeaea;
-                                }
-
-
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .entry-thumb {
-                                    background-position: center 50%;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .entry-thumb {
-                                    background-position: center 50%;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-image-container {
-                                    flex: 0 0 30%;
-                                    width: 30%;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    width: 20px;
-                                    height: 20px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    width: 20px;
-                                    height: 20px;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    margin-right: 6px;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    margin-right: 6px;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-author-photo .avatar {
-                                    border-radius: 50%;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-author-photo .avatar {
-                                    border-radius: 50%;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-post-category {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-post-category {
-                                    display: none;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-excerpt {
-                                    display: block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-post-author-name {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-post-author-name {
-                                    display: none;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-post-date,
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-post-author-name span {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-post-date,
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-post-author-name span {
-                                    display: inline-block;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .entry-review-stars {
-                                    display: inline-block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .entry-review-stars {
-                                    display: inline-block;
-                                }
-
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-module-comments {
-                                    display: block;
-                                }
-
-                                .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-module-comments {
-                                    display: none;
-                                }
-
-                                /* landscape */
-                                @media (min-width: 1019px) and (max-width: 1140px) {
-                                    .td_uid_25_6541133a642c2_rand .td_module_wrap {
-                                        padding-left: 20px;
-                                        padding-right: 20px;
-                                    }
-
-                                    .td_uid_25_6541133a642c2_rand .td_block_inner {
-                                        margin-left: -20px;
-                                        margin-right: -20px;
-                                    }
-                                }
-
-                                /* portrait */
-                                @media (min-width: 768px) and (max-width: 1018px) {
-                                    .td_uid_25_6541133a642c2_rand .td_module_wrap {
-                                        padding-left: 14px;
-                                        padding-right: 14px;
-                                    }
-
-                                    .td_uid_25_6541133a642c2_rand .td_block_inner {
-                                        margin-left: -14px;
-                                        margin-right: -14px;
-                                    }
-
-
-
-                                    .td_uid_25_6541133a642c2_rand .td_module_flex_3 .td-image-container {
-                                        flex: 0 0 35%;
-                                        width: 35%;
-                                    }
-                                }
-
-                                /* phone */
-                                @media (max-width: 767px) {
-                                    .td_uid_25_6541133a642c2_rand .td_module_flex_1 {
-                                        width: 100%;
-                                        float: left;
-                                    }
-
-                                    .td_uid_25_6541133a642c2_rand .td_module_column {
-                                        width: 100%;
-                                        float: left;
-                                    }
-
-                                    .td_uid_25_6541133a642c2_rand .td_module_flex_1 {
-                                        padding-bottom: 10.5px;
-                                        margin-bottom: 10.5px;
-                                    }
-
-                                    .td_uid_25_6541133a642c2_rand .td_module_flex_1 .td-module-container:before {
-                                        bottom: -10.5px;
-                                    }
-                                }
-                            </style>
-                            <script>var block_td_uid_25_6541133a642c2 = new tdBlock();
-                                block_td_uid_25_6541133a642c2.id = "td_uid_25_6541133a642c2";
-                                block_td_uid_25_6541133a642c2.atts = '{"modules_category":"image","modules_on_row":"eyJhbGwiOiI1MCUiLCJsYW5kc2NhcGUiOiIxMDAlIn0=","modules_category1":"image","show_cat2":"none","show_com2":"none","show_author2":"none","columns":"eyJhbGwiOiI1MCUiLCJwaG9uZSI6IjEwMCUifQ==","columns_gap":"eyJsYW5kc2NhcGUiOiI0MCIsInBvcnRyYWl0IjoiMjgifQ==","image_width2":"eyJwb3J0cmFpdCI6IjM1In0=","modules_space1":"eyJhbGwiOiIwIiwicGhvbmUiOiIyMSJ9","custom_title":"C\u00f4ng ngh\u1ec7","block_template_id":"td_block_template_9","header_text_color":"#8d0003","category_id":"12","separator":"","custom_url":"","mc1_tl":"","mc1_el":"","mc3_tl":"","post_ids":"","category_ids":"","tag_slug":"","autors_id":"","installed_post_types":"","sort":"","limit":"5","offset":"","el_class":"","td_ajax_filter_type":"","td_ajax_filter_ids":"","td_filter_default_txt":"All","td_ajax_preloading":"","h_effect":"","modules_divider1":"","modules_divider_color1":"#eaeaea","image_size":"","image_alignment1":"50","image_height1":"","image_radius1":"","hide_image":"","meta_info_align1":"","meta_info_horiz1":"content-horiz-left","meta_width1":"","meta_margin1":"","meta_padding1":"","art_title1":"","art_excerpt1":"","modules_category_margin1":"","modules_category_padding1":"","modules_category_radius1":"0","show_cat1":"inline-block","show_author1":"inline-block","author_photo":"","author_photo_size1":"","author_photo_space1":"","author_photo_radius1":"","show_date1":"inline-block","show_review1":"inline-block","show_com1":"block","show_excerpt1":"block","excerpt_middle":"","modules_space2":"26","modules_divider2":"","modules_divider_color2":"#eaeaea","image_size2":"","image_alignment2":"50","image_height2":"","image_radius2":"","hide_image2":"","meta_info_horiz2":"content-horiz-left","meta_width2":"","meta_margin2":"","meta_padding2":"","art_title2":"","modules_category2":"","modules_category_margin2":"","modules_category_padding2":"","modules_category_radius2":"0","author_photo2":"","author_photo_size2":"","author_photo_space2":"","author_photo_radius2":"","show_date2":"inline-block","show_review2":"inline-block","f_header_font_header":"","f_header_font_title":"Block header","f_header_font_settings":"","f_header_font_family":"","f_header_font_size":"","f_header_font_line_height":"","f_header_font_style":"","f_header_font_weight":"","f_header_font_transform":"","f_header_font_spacing":"","f_header_":"","f_ajax_font_title":"Ajax categories","f_ajax_font_settings":"","f_ajax_font_family":"","f_ajax_font_size":"","f_ajax_font_line_height":"","f_ajax_font_style":"","f_ajax_font_weight":"","f_ajax_font_transform":"","f_ajax_font_spacing":"","f_ajax_":"","f_more_font_title":"Load more button","f_more_font_settings":"","f_more_font_family":"","f_more_font_size":"","f_more_font_line_height":"","f_more_font_style":"","f_more_font_weight":"","f_more_font_transform":"","f_more_font_spacing":"","f_more_":"","f_title1_font_header":"","f_title1_font_title":"Article title 1","f_title1_font_settings":"","f_title1_font_family":"","f_title1_font_size":"","f_title1_font_line_height":"","f_title1_font_style":"","f_title1_font_weight":"","f_title1_font_transform":"","f_title1_font_spacing":"","f_title1_":"","f_cat1_font_title":"Article category tag 1","f_cat1_font_settings":"","f_cat1_font_family":"","f_cat1_font_size":"","f_cat1_font_line_height":"","f_cat1_font_style":"","f_cat1_font_weight":"","f_cat1_font_transform":"","f_cat1_font_spacing":"","f_cat1_":"","f_meta1_font_title":"Article meta info 1","f_meta1_font_settings":"","f_meta1_font_family":"","f_meta1_font_size":"","f_meta1_font_line_height":"","f_meta1_font_style":"","f_meta1_font_weight":"","f_meta1_font_transform":"","f_meta1_font_spacing":"","f_meta1_":"","f_ex1_font_title":"Article excerpt 1","f_ex1_font_settings":"","f_ex1_font_family":"","f_ex1_font_size":"","f_ex1_font_line_height":"","f_ex1_font_style":"","f_ex1_font_weight":"","f_ex1_font_transform":"","f_ex1_font_spacing":"","f_ex1_":"","f_title2_font_title":"Article title 2","f_title2_font_settings":"","f_title2_font_family":"","f_title2_font_size":"","f_title2_font_line_height":"","f_title2_font_style":"","f_title2_font_weight":"","f_title2_font_transform":"","f_title2_font_spacing":"","f_title2_":"","f_cat2_font_title":"Article category tag 2","f_cat2_font_settings":"","f_cat2_font_family":"","f_cat2_font_size":"","f_cat2_font_line_height":"","f_cat2_font_style":"","f_cat2_font_weight":"","f_cat2_font_transform":"","f_cat2_font_spacing":"","f_cat2_":"","f_meta2_font_title":"Article meta info 2","f_meta2_font_settings":"","f_meta2_font_family":"","f_meta2_font_size":"","f_meta2_font_line_height":"","f_meta2_font_style":"","f_meta2_font_weight":"","f_meta2_font_transform":"","f_meta2_font_spacing":"","f_meta2_":"","shadow_shadow_header":"","shadow_shadow_title":"Module Shadow","shadow_shadow_size":"","shadow_shadow_offset_horizontal":"","shadow_shadow_offset_vertical":"","shadow_shadow_spread":"","shadow_shadow_color":"","meta_bg":"","title_txt":"","title_txt_hover":"","cat_bg":"","cat_bg_hover":"","cat_txt":"","cat_txt_hover":"","author_txt":"","author_txt_hover":"","date_txt":"","ex_txt":"","com_bg":"","com_txt":"","pag_text":"","pag_h_text":"","pag_bg":"","pag_h_bg":"","pag_border":"","pag_h_border":"","btn_title":"","ajax_pagination":"","ajax_pagination_infinite_stop":"","css":"","tdc_css":"","td_column_number":2,"header_color":"","color_preset":"","border_top":"","class":"td_uid_25_6541133a642c2_rand","tdc_css_class":"td_uid_25_6541133a642c2_rand","tdc_css_class_style":"td_uid_25_6541133a642c2_rand_style"}';
-                                block_td_uid_25_6541133a642c2.td_column_number = "2";
-                                block_td_uid_25_6541133a642c2.block_type = "td_flex_block_3";
-                                block_td_uid_25_6541133a642c2.post_count = "5";
-                                block_td_uid_25_6541133a642c2.found_posts = "8";
-                                block_td_uid_25_6541133a642c2.header_color = "";
-                                block_td_uid_25_6541133a642c2.ajax_pagination_infinite_stop = "";
-                                block_td_uid_25_6541133a642c2.max_num_pages = "2";
-                                tdBlocksArray.push(block_td_uid_25_6541133a642c2);
-                            </script>
-                            <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Công
-                                        nghệ</span></h4>
-                            </div>
-                            <div id=td_uid_25_6541133a642c2 class="td_block_inner td-mc1-wrap">
-                                <div class="td_module_flex_1 td_module_wrap td-animation-stack">
-                                    <div class="td-module-container td-category-pos-image">
-                                        <div class="td-image-container">
-                                            <a href="category/cong-nghe/index.html" class="td-post-category">Công
-                                                nghệ</a>
-                                            <div class="td-module-thumb"><a
-                                                    href="sharp-gay-chu-y-voi-mau-dien-thoai-gap-doc-man-hinh-6-18-inch-di-kem-tai-tho/index.html"
-                                                    rel="bookmark" class="td-image-wrap"
-                                                    title="Sharp gây chú ý với mẫu điện thoại &#8220;gập dọc&#8221;, màn hình 6.18 inch, đi kèm &#8220;tai thỏ&#8221;"><span
-                                                        class="entry-thumb td-thumb-css" data-type="css_image"
-                                                        data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cn-8-696x464.jpg"></span></a>
-                                            </div>
-                                        </div>
-
-                                        <div class="td-module-meta-info">
-
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="sharp-gay-chu-y-voi-mau-dien-thoai-gap-doc-man-hinh-6-18-inch-di-kem-tai-tho/index.html"
-                                                    rel="bookmark"
-                                                    title="Sharp gây chú ý với mẫu điện thoại &#8220;gập dọc&#8221;, màn hình 6.18 inch, đi kèm &#8220;tai thỏ&#8221;">Sharp
-                                                    gây chú ý với mẫu điện thoại &#8220;gập dọc&#8221;,
-                                                    màn hình 6.18 inch, đi kèm &#8220;tai thỏ&#8221;</a>
-                                            </h3>
-
-                                            <div class="td-editor-date">
-
-                                                <span class="td-author-date">
-                                                    <span class="td-post-author-name"><a
-                                                            href="author/monamedia/index.html">mona</a>
-                                                        <span>-</span> </span> <span class="td-post-date"><time
-                                                            class="entry-date updated td-module-date"
-                                                            datetime="2019-04-17T08:53:12+00:00">17
-                                                            Tháng Tư, 2019</time></span>
-                                                    <div class="td-module-comments"><a
-                                                            href="sharp-gay-chu-y-voi-mau-dien-thoai-gap-doc-man-hinh-6-18-inch-di-kem-tai-tho/index.html#respond">0</a>
-                                                    </div>
-                                                </span>
-                                            </div>
-
-                                            <div class="td-excerpt">Không giống như kiểu màn hình gập
-                                                chiều ngang như của Samsung, thiết bị của Sharp có thể
-                                                gập màn hình theo chiều dọc...</div>
-                                            <div class="td-read-more">
-                                                <a
-                                                    href="sharp-gay-chu-y-voi-mau-dien-thoai-gap-doc-man-hinh-6-18-inch-di-kem-tai-tho/index.html">Xem
-                                                    thêm</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="td_module_column">
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="laptop-huawei-matebook-e-2019-am-tham-ra-mat-su-dung-chip-snapdragon-850/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Laptop Huawei MateBook E 2019 âm thầm ra mắt, sử dụng chip Snapdragon 850"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cn-7-696x392.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="laptop-huawei-matebook-e-2019-am-tham-ra-mat-su-dung-chip-snapdragon-850/index.html"
-                                                        rel="bookmark"
-                                                        title="Laptop Huawei MateBook E 2019 âm thầm ra mắt, sử dụng chip Snapdragon 850">Laptop
-                                                        Huawei MateBook E 2019 âm thầm ra mắt, sử dụng
-                                                        chip Snapdragon 850</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/cong-nghe/index.html"
-                                                        class="td-post-category">Công nghệ</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T08:48:36+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="laptop-huawei-matebook-e-2019-am-tham-ra-mat-su-dung-chip-snapdragon-850/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="nhung-tinh-nang-thong-minh-moi-cua-gmail-nhan-dip-sinh-nhat-15-tuoi/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Những tính năng thông minh mới của Gmail nhân dịp sinh nhật 15 tuổi"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cn-6-696x461.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="nhung-tinh-nang-thong-minh-moi-cua-gmail-nhan-dip-sinh-nhat-15-tuoi/index.html"
-                                                        rel="bookmark"
-                                                        title="Những tính năng thông minh mới của Gmail nhân dịp sinh nhật 15 tuổi">Những
-                                                        tính năng thông minh mới của Gmail nhân dịp sinh
-                                                        nhật 15 tuổi</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/cong-nghe/index.html"
-                                                        class="td-post-category">Công nghệ</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T08:46:26+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="nhung-tinh-nang-thong-minh-moi-cua-gmail-nhan-dip-sinh-nhat-15-tuoi/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="facebook-lai-chuan-bi-tich-hop-tro-chuyen-messenger-vao-ung-dung-chinh/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Facebook lại chuẩn bị tích hợp trò chuyện Messenger vào ứng dụng chính"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cn-5-696x478.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="facebook-lai-chuan-bi-tich-hop-tro-chuyen-messenger-vao-ung-dung-chinh/index.html"
-                                                        rel="bookmark"
-                                                        title="Facebook lại chuẩn bị tích hợp trò chuyện Messenger vào ứng dụng chính">Facebook
-                                                        lại chuẩn bị tích hợp trò chuyện Messenger vào
-                                                        ứng dụng chính</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/cong-nghe/index.html"
-                                                        class="td-post-category">Công nghệ</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T08:43:43+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="facebook-lai-chuan-bi-tich-hop-tro-chuyen-messenger-vao-ung-dung-chinh/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-
-                                    <div class="td_module_flex_3 td_module_wrap td-animation-stack">
-                                        <div class="td-module-container td-category-pos-">
-                                            <div class="td-image-container">
-                                                <div class="td-module-thumb"><a
-                                                        href="huawei-the-hien-thien-chi-ban-chip-5g-doc-quyen-cho-apple/index.html"
-                                                        rel="bookmark" class="td-image-wrap"
-                                                        title="Huawei thể hiện thiện chí, bán chip 5G độc quyền cho Apple"><span
-                                                            class="entry-thumb td-thumb-css" data-type="css_image"
-                                                            data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cn-4.jpg"></span></a>
-                                                </div>
-                                            </div>
-
-                                            <div class="td-module-meta-info">
-
-                                                <h3 class="entry-title td-module-title"><a
-                                                        href="huawei-the-hien-thien-chi-ban-chip-5g-doc-quyen-cho-apple/index.html"
-                                                        rel="bookmark"
-                                                        title="Huawei thể hiện thiện chí, bán chip 5G độc quyền cho Apple">Huawei
-                                                        thể hiện thiện chí, bán chip 5G độc quyền cho
-                                                        Apple</a></h3>
-                                                <div class="td-editor-date">
-                                                    <a href="category/cong-nghe/index.html"
-                                                        class="td-post-category">Công nghệ</a>
-                                                    <span class="td-author-date">
-                                                        <span class="td-post-author-name"><a
-                                                                href="author/monamedia/index.html">mona</a>
-                                                            <span>-</span> </span> <span class="td-post-date"><time
-                                                                class="entry-date updated td-module-date"
-                                                                datetime="2019-04-17T08:40:24+00:00">17
-                                                                Tháng Tư, 2019</time></span>
-                                                        <div class="td-module-comments"><a
-                                                                href="huawei-the-hien-thien-chi-ban-chip-5g-doc-quyen-cho-apple/index.html#respond">0</a>
-                                                        </div>
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div> <!-- ./block -->
+                        
                     </div>
                 </div>
                 <div
@@ -5148,29 +3123,28 @@
                                                 <div class="td_current_video_play_time_youtube td_video_time_playing">
                                                 </div>
                                             </div>
-                                            <div id="td_youtube_playlist_video" class="td_playlist_clickable "><a
-                                                    class="td_PJYWbM6OX2M td_click_video td_click_video_youtube"
-                                                    data-video-id="PJYWbM6OX2M">
-                                                    <div class="td_video_thumb"><img
-                                                            src="../../img.youtube.com/vi/PJYWbM6OX2M/default.jpg"
-                                                            alt="" /></div>
+                                            <div id="td_youtube_playlist_video" class="td_playlist_clickable ">
+                                                <a class="td_PJYWbM6OX2M td_click_video td_click_video_youtube" data-video-id="PJYWbM6OX2M">
+                                                    <div class="td_video_thumb">
+                                                        <img src="../../img.youtube.com/vi/PJYWbM6OX2M/default.jpg" alt="" />
+                                                    </div>
                                                     <div class="td_video_title_and_time">
                                                         <div class="td_video_title">Nổ súng khiến 4
                                                             người thiệt mạng tại Canada</div>
                                                         <div class="td_video_time">00:47</div>
                                                     </div>
-                                                </a><a class="td_wAZGbE5W97I td_click_video td_click_video_youtube"
-                                                    data-video-id="wAZGbE5W97I">
-                                                    <div class="td_video_thumb"><img
-                                                            src="../../img.youtube.com/vi/wAZGbE5W97I/default.jpg"
-                                                            alt="" /></div>
+                                                </a>
+                                                <a class="td_wAZGbE5W97I td_click_video td_click_video_youtube" data-video-id="wAZGbE5W97I">
+                                                    <div class="td_video_thumb"><img src="../../img.youtube.com/vi/wAZGbE5W97I/default.jpg" alt="" />
+                                                </div>
                                                     <div class="td_video_title_and_time">
                                                         <div class="td_video_title">Hàng loạt ôtô chạy
                                                             vào làn xe máy ở đường dẫn cao tốc Long
                                                             Thành</div>
                                                         <div class="td_video_time">02:10</div>
                                                     </div>
-                                                </a></div>
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
