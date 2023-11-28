@@ -113,6 +113,10 @@ Route::get('/lay-ten-danh-muc', [DanhmucController::class, 'laytendanhmuc'])->na
 
 //Tin tức công nghệ
 Route::get('/', [TintucController::class,'trangchu'])->name('trangchu');
+Route::get('/tin-tuc/{slug}', [TintucController::class,'tintuc'])->name('tintuc');
+Route::get('/chi-tiet-tin-tuc/{slug}', [TintucController::class,'chitiettintuc'])->name('chitiettintuc');
+
+
 
 
 

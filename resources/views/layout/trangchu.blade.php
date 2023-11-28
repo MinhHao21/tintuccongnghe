@@ -347,7 +347,7 @@
 					<ul id="menu-menu-chinh" class="td-mobile-main-menu">
                         @foreach($danhmuc as $dm)
 						<li id="menu-item-229"
-							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-first menu-item-229">
+							class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-230">
 							<a href="/tin-tuc/{{ $dm['slug']}}">{{$dm['label']}}</a></li>
                         @endforeach
 						<!-- <li id="menu-item-230"
@@ -487,7 +487,7 @@ Header style 1
 				<div class="td-banner-wrap-full td-logo-wrap-full td-container-wrap ">
 					<div class="td-container td-header-row td-header-header">
 						<div class="td-header-sp-logo">
-							<h1 class="td-logo"> <a class="td-main-logo" href="index.html">
+							<h1 class="td-logo"> <a class="td-main-logo" href="/">
 									<img src="../images/logo_news.png" alt="" />
 									<span class="td-visual-hidden">Người Đưa Tin</span>
 								</a>
@@ -591,7 +591,7 @@ Header style 1
 				<div class="td-pb-row">
 					<div class="td-pb-span3">
 						<aside class="footer-logo-wrap"><a href="index.html"><img
-									src="wp-content/uploads/2019/04/logo-mona-2-300x90.png" alt="" title="" /></a>
+									src="../images/logo_news.png" alt="" title="" /></a>
 						</aside>
 					</div>
 					<div class="td-pb-span5">
