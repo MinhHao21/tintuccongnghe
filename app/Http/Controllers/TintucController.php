@@ -52,7 +52,7 @@ class TintucController extends Controller
         $phukiens = Post::whereNotIn('id', $Posts_idPhukien)->where('danhmuc_id', 131)->where('published_at', '!=', null)->orderBy('id', 'desc')->take(4)->get();
 
         $docnhieunhat = Post::where('published_at', '!=', null)->where('noibat', '=', 1)->orderBy('id', 'desc')->take(7)->get();
-        $video = Media::orderBy('id', 'desc')->get();
+        $video = Media::orderBy('id', 'desc')->first();
         return view('posts.home', [
             'PostsNoibat' => $PostsNoibat,
             'quantam' => $quantam,

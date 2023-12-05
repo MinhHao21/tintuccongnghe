@@ -3000,8 +3000,8 @@
                                 <div class="td-weather-header">
                                     <div class="td-weather-city">Ho Chi Minh City</div>
                                     <div class="td-weather-condition">broken clouds</div>
-                                    <i class="td-location-icon td-icons-location"
-                                        data-block-uid="td_uid_28_6541133a70278"></i>
+                                    
+                                        <i class="fa-solid fa-location-crosshairs  td-location-icon" data-block-uid="td_uid_28_6541133a70278"></i>
                                 </div>
 
                                 <div class="td-weather-set-location">
@@ -3027,12 +3027,12 @@
                                         </div>
                                         <div class="td-weather-lo-hi">
                                             <div class="td-weather-degrees-wrap">
-                                                <i class="td-up-icon td-icons-arrows-up"></i>
+                                                <i class="fa-solid fa-angles-up  td-up-icon"></i>
                                                 <span class="td-small-degrees td-w-high-temp">26</span>
                                                 <span class="td-circle">&deg;</span>
                                             </div>
                                             <div class="td-weather-degrees-wrap">
-                                                <i class="td-down-icon td-icons-arrows-down"></i>
+                                                <i class="fa-solid fa-angles-down  td-down-icon"></i>
                                                 <span class="td-small-degrees td-w-low-temp">26</span>
                                                 <span class="td-circle">&deg;</span>
                                             </div>
@@ -3043,16 +3043,16 @@
                                 <div class="td-weather-info-wrap">
                                     <div class="td-weather-information">
                                         <div class="td-weather-section-1">
-                                            <i class="td-icons-drop"></i>
+                                            <i class="fa-solid fa-droplet"></i>
                                             <span class="td-weather-parameter td-w-today-humidity">100
                                                 %</span>
                                         </div>
                                         <div class="td-weather-section-2">
-                                            <i class="td-icons-wind"></i>
+                                            <i class="fa-solid fa-wind"></i>
                                             <span class="td-weather-parameter td-w-today-wind-speed">1kmh</span>
                                         </div>
                                         <div class="td-weather-section-3">
-                                            <i class="td-icons-cloud"></i>
+                                            <i class="fa-solid fa-cloud"></i>
                                             <span class="td-weather-parameter td-w-today-clouds">75
                                                 %</span>
                                         </div>
@@ -3110,10 +3110,14 @@
                                 <div class="td_video_playlist_column_1">
                                     <div class="td_wrapper_video_playlist">
                                         <div class="td_wrapper_player td_wrapper_playlist_player_youtube"
-                                            data-first-video="PJYWbM6OX2M" data-autoplay="0">
-                                            <div id="player_youtube"></div>
+                                            data-first-video="PJYWbM6OX2M" data-autoplay="0" >
+                                            <div id="player_youtube">
+                                                @if($video)
+                                                    <iframe width="560" height="500" src="{{$video->linkyoutube}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" ></iframe>
+                                                @endif
+                                            </div>
                                         </div>
-                                        <div class="td_container_video_playlist ">
+                                        <!-- <div class="td_container_video_playlist ">
                                             <div class="td_video_controls_playlist_wrapper">
                                                 <div class="td_video_stop_play_control"><a
                                                         class="td-sp-video-play td-sp td_youtube_control"></a>
@@ -3134,21 +3138,11 @@
                                                         <div class="td_video_time">00:47</div>
                                                     </div>
                                                 </a>
-                                                <a class="td_wAZGbE5W97I td_click_video td_click_video_youtube" data-video-id="wAZGbE5W97I">
-                                                    <div class="td_video_thumb"><img src="../../img.youtube.com/vi/wAZGbE5W97I/default.jpg" alt="" />
-                                                </div>
-                                                    <div class="td_video_title_and_time">
-                                                        <div class="td_video_title">Hàng loạt ôtô chạy
-                                                            vào làn xe máy ở đường dẫn cao tốc Long
-                                                            Thành</div>
-                                                        <div class="td_video_time">02:10</div>
-                                                    </div>
-                                                </a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
-                                <script>; if (undefined === window.td_youtube_list_ids) { window.td_youtube_list_ids = {} }; window.td_youtube_list_ids['td_PJYWbM6OX2M'] = { title: "Nổ súng khiến 4 người thiệt mạng tại Canada", time: "00:47" }; window.td_youtube_list_ids['td_wAZGbE5W97I'] = { title: "Hàng loạt ôtô chạy vào làn xe máy ở đường dẫn cao tốc Long Thành", time: "02:10" };</script>
+                                
                             </div>
                         </div> <!-- ./block_video_playlist -->
                         <!-- <div
@@ -3210,149 +3204,8 @@
                                 block_td_uid_32_6541133aa80ac.max_num_pages = "2";
                                 tdBlocksArray.push(block_td_uid_32_6541133aa80ac);
                             </script>
-                            <div class="td-block-title-wrap">
-                                <h4 class="td-block-title"><span class="td-pulldown-size">Cần
-                                        biết</span></h4>
-                            </div>
-                            <div id=td_uid_32_6541133aa80ac class="td_block_inner">
-
-                                <div class="td-block-span12">
-
-                                    <div class="td_module_6 td_module_wrap td-animation-stack">
-
-                                        <div class="td-module-thumb"><a
-                                                href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html"
-                                                rel="bookmark" class="td-image-wrap"
-                                                title="Giải đáp: Người bị bệnh gút có ăn được đậu phụ không?"><img
-                                                    class="entry-thumb"
-                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABGAQMAAAAASKMqAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABBJREFUKM9jGAWjYBQMKwAAA9QAAQWBn6cAAAAASUVORK5CYII="
-                                                    alt="" title="Giải đáp: Người bị bệnh gút có ăn được đậu phụ không?"
-                                                    data-type="image_tag"
-                                                    data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cb-8-100x70.jpg"
-                                                    width="100" height="70" /></a></div>
-                                        <div class="item-details">
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="giai-dap-nguoi-bi-benh-gut-co-an-duoc-dau-phu-khong/index.html"
-                                                    rel="bookmark"
-                                                    title="Giải đáp: Người bị bệnh gút có ăn được đậu phụ không?">Giải
-                                                    đáp: Người bị bệnh gút có ăn được đậu phụ...</a>
-                                            </h3>
-                                            <div class="td-module-meta-info">
-                                                <span class="td-post-date"><time
-                                                        class="entry-date updated td-module-date"
-                                                        datetime="2019-04-17T09:30:46+00:00">17 Tháng
-                                                        Tư, 2019</time></span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div> <!-- ./td-block-span12 -->
-
-                                <div class="td-block-span12">
-
-                                    <div class="td_module_6 td_module_wrap td-animation-stack">
-
-                                        <div class="td-module-thumb"><a
-                                                href="co-nen-ap-dung-tang-can-nhanh-trong-1-tuan/index.html"
-                                                rel="bookmark" class="td-image-wrap"
-                                                title="Có nên áp dụng tăng cân nhanh trong 1 tuần?"><img
-                                                    class="entry-thumb"
-                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABGAQMAAAAASKMqAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABBJREFUKM9jGAWjYBQMKwAAA9QAAQWBn6cAAAAASUVORK5CYII="
-                                                    alt="" title="Có nên áp dụng tăng cân nhanh trong 1 tuần?"
-                                                    data-type="image_tag"
-                                                    data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cb-7-100x70.jpg"
-                                                    width="100" height="70" /></a></div>
-                                        <div class="item-details">
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="co-nen-ap-dung-tang-can-nhanh-trong-1-tuan/index.html"
-                                                    rel="bookmark"
-                                                    title="Có nên áp dụng tăng cân nhanh trong 1 tuần?">Có
-                                                    nên áp dụng tăng cân nhanh trong 1 tuần?</a></h3>
-                                            <div class="td-module-meta-info">
-                                                <span class="td-post-date"><time
-                                                        class="entry-date updated td-module-date"
-                                                        datetime="2019-04-17T09:28:03+00:00">17 Tháng
-                                                        Tư, 2019</time></span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div> <!-- ./td-block-span12 -->
-
-                                <div class="td-block-span12">
-
-                                    <div class="td_module_6 td_module_wrap td-animation-stack">
-
-                                        <div class="td-module-thumb"><a
-                                                href="tuyet-chieu-viet-content-hieu-qua-cho-nganh-lam-dep-my-pham/index.html"
-                                                rel="bookmark" class="td-image-wrap"
-                                                title="&#8220;Tuyệt chiêu&#8221; viết content hiệu quả cho ngành làm đẹp, mỹ phẩm"><img
-                                                    class="entry-thumb"
-                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABGAQMAAAAASKMqAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABBJREFUKM9jGAWjYBQMKwAAA9QAAQWBn6cAAAAASUVORK5CYII="
-                                                    alt=""
-                                                    title="&#8220;Tuyệt chiêu&#8221; viết content hiệu quả cho ngành làm đẹp, mỹ phẩm"
-                                                    data-type="image_tag"
-                                                    data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cb-6-100x70.png"
-                                                    width="100" height="70" /></a></div>
-                                        <div class="item-details">
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="tuyet-chieu-viet-content-hieu-qua-cho-nganh-lam-dep-my-pham/index.html"
-                                                    rel="bookmark"
-                                                    title="&#8220;Tuyệt chiêu&#8221; viết content hiệu quả cho ngành làm đẹp, mỹ phẩm">&#8220;Tuyệt
-                                                    chiêu&#8221; viết content hiệu quả cho ngành làm
-                                                    đẹp, mỹ...</a></h3>
-                                            <div class="td-module-meta-info">
-                                                <span class="td-post-date"><time
-                                                        class="entry-date updated td-module-date"
-                                                        datetime="2019-04-17T09:26:27+00:00">17 Tháng
-                                                        Tư, 2019</time></span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div> <!-- ./td-block-span12 -->
-
-                                <div class="td-block-span12">
-
-                                    <div class="td_module_6 td_module_wrap td-animation-stack">
-
-                                        <div class="td-module-thumb"><a href="sau-khi-nang-mui-nen-an-gi/index.html"
-                                                rel="bookmark" class="td-image-wrap"
-                                                title="Sau khi nâng mũi nên ăn gì?"><img class="entry-thumb"
-                                                    src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABGAQMAAAAASKMqAAAAA1BMVEWurq51dlI4AAAAAXRSTlMmkutdmwAAABBJREFUKM9jGAWjYBQMKwAAA9QAAQWBn6cAAAAASUVORK5CYII="
-                                                    alt="" title="Sau khi nâng mũi nên ăn gì?" data-type="image_tag"
-                                                    data-img-url="https://mauweb.monamedia.net/nguoiduatin/wp-content/uploads/2019/04/cb-5-100x70.png"
-                                                    width="100" height="70" /></a></div>
-                                        <div class="item-details">
-                                            <h3 class="entry-title td-module-title"><a
-                                                    href="sau-khi-nang-mui-nen-an-gi/index.html" rel="bookmark"
-                                                    title="Sau khi nâng mũi nên ăn gì?">Sau khi nâng mũi
-                                                    nên ăn gì?</a></h3>
-                                            <div class="td-module-meta-info">
-                                                <span class="td-post-date"><time
-                                                        class="entry-date updated td-module-date"
-                                                        datetime="2019-04-17T09:24:57+00:00">17 Tháng
-                                                        Tư, 2019</time></span>
-                                            </div>
-                                        </div>
-
-                                    </div>
-
-
-                                </div> <!-- ./td-block-span12 -->
-                            </div>
-                            <div class="td-next-prev-wrap"><a href="#" class="td-ajax-prev-page ajax-page-disabled"
-                                    id="prev-page-td_uid_32_6541133aa80ac" data-td_block_id="td_uid_32_6541133aa80ac"><i
-                                        class="td-icon-font td-icon-menu-left"></i></a><a href="#"
-                                    class="td-ajax-next-page" id="next-page-td_uid_32_6541133aa80ac"
-                                    data-td_block_id="td_uid_32_6541133aa80ac"><i
-                                        class="td-icon-font td-icon-menu-right"></i></a></div>
+                            
+                            
                         </div> <!-- ./block -->
                         <div
                             class="wpb_wrapper td_block_single_image td_block_wrap  td-no-img-custom-url td_block_wrap vc_single_image td_uid_33_6541133aac764_rand  td-single-image- td-pb-border-top td_block_template_1">

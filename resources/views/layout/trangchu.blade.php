@@ -302,7 +302,7 @@
 	class="home page-template-default page page-id-6 trang-chu global-block-template-1 td-animation-stack-type0 td-full-layout"
 	itemscope="itemscope" itemtype="https://schema.org/WebPage">
 
-	<div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
+	<div class="td-scroll-up"><i class="fa-solid fa-chevron-up" style="position: relative; color:#fff; font-size: 20px; display: block; text-align: center; width: 40px; top: 7px;"></i></div>
 
 	<div class="td-menu-background"></div>
 	<div id="td-mobile-nav">
@@ -437,7 +437,7 @@ Header style 1
 
 								<!-- td weather source: cache -->
 								<div class="td-weather-top-widget" id="td_top_weather_uid">
-									<i class="td-icons broken-clouds-n"></i>
+								<i class="fa-solid fa-cloud"></i>
 									<div class="td-weather-now" data-block-uid="td_top_weather_uid">
 										<span class="td-big-degrees">26</span>
 										<span class="td-weather-unit">C</span>
@@ -457,24 +457,25 @@ Header style 1
 
 
 
-								<span class="td-social-icon-wrap">
+								<span class="td-social-icon-wrap" style="margin-left: 4px; margin-right: 4px;">
 									<a target="_blank" href="www.facebook.html" title="Facebook">
-										<i class="td-icon-font td-icon-facebook"></i>
+										
+										<i class="fa-brands fa-facebook"></i>
 									</a>
 								</span>
-								<span class="td-social-icon-wrap">
+								<span class="td-social-icon-wrap" style="margin-left: 4px; margin-right: 4px;">
 									<a target="_blank" href="https://plus.google.com/" title="Google+">
-										<i class="td-icon-font td-icon-googleplus"></i>
+										<i class="fa-brands fa-google-plus-g"></i>
 									</a>
 								</span>
-								<span class="td-social-icon-wrap">
+								<span class="td-social-icon-wrap" style="margin-left: 4px; margin-right: 4px;">
 									<a target="_blank" href="https://www.pinterest.com/" title="Pinterest">
-										<i class="td-icon-font td-icon-pinterest"></i>
+										<i class="fa-brands fa-pinterest"></i>
 									</a>
 								</span>
-								<span class="td-social-icon-wrap">
+								<span class="td-social-icon-wrap" style="margin-left: 4px; margin-right: 4px;">
 									<a target="_blank" href="https://twitter.com/" title="Twitter">
-										<i class="td-icon-font td-icon-twitter"></i>
+										<i class="fa-brands fa-twitter"></i>
 									</a>
 								</span>
 							</div>
@@ -608,22 +609,22 @@ Header style 1
 							<div class="block-title"><span>THEO DÕI CHÚNG TÔI</span></div>
 							<span class="td-social-icon-wrap">
 								<a target="_blank" href="www.facebook.html" title="Facebook">
-									<i class="td-icon-font td-icon-facebook"></i>
+									<i class="fa-brands fa-facebook" style="position: relative; color:#fff; font-size: 20px; display: block; text-align: center; width: 40px; top: 7px;"></i>
 								</a>
 							</span>
 							<span class="td-social-icon-wrap">
 								<a target="_blank" href="https://plus.google.com/" title="Google+">
-									<i class="td-icon-font td-icon-googleplus"></i>
+									<i style="position: relative; color:#fff; font-size: 20px; display: block; text-align: center; width: 40px; top: 7px;" class="fa-brands fa-google-plus-g"></i>
 								</a>
 							</span>
 							<span class="td-social-icon-wrap">
 								<a target="_blank" href="https://www.pinterest.com/" title="Pinterest">
-									<i class="td-icon-font td-icon-pinterest"></i>
+									<i style="position: relative; color:#fff; font-size: 20px; display: block; text-align: center; width: 40px; top: 7px;" class="fa-brands fa-pinterest-p"></i>
 								</a>
 							</span>
 							<span class="td-social-icon-wrap">
 								<a target="_blank" href="https://twitter.com/" title="Twitter">
-									<i class="td-icon-font td-icon-twitter"></i>
+									<i style="position: relative; color:#fff; font-size: 20px; display: block; text-align: center; width: 40px; top: 7px;" class="fa-brands fa-twitter"></i>
 								</a>
 							</span>
 						</aside>

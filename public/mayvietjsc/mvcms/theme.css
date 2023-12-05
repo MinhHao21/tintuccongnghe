@@ -31,7 +31,8 @@ form > .flex.items-center {
 }
 
 .bg-grad-sidebar {
-    background: url("/images/bg-banner-1.jpg") no-repeat;
+    /* background: url("/images/bg-banner-1.jpg") no-repeat; */
+    background: #9f0004;
     background-size: cover;
 }
 
