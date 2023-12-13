@@ -211,6 +211,8 @@
 		var td_ad_background_click_link = "";
 		var td_ad_background_click_target = "";
 	</script>
+	<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <script src='https://unpkg.com/vuejs-form@latest/build/vuejs-form.min.js'></script>
 
 
 	<!-- Button style compiled by theme -->
@@ -556,13 +558,11 @@ Header style 1
 										data-toggle="dropdown"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></a>
 								</div>
 
-								<div class="td-drop-down-search" aria-labelledby="td-header-search-button">
-									<form method="get" class="td-search-form"
-										action="https://mauweb.monamedia.net/nguoiduatin/">
-										<div role="search" class="td-head-form-search-wrap">
-											<input id="td-header-search" type="text" value="" name="s"
-												autocomplete="off" /><input class="wpb_button wpb_btn-inverse btn"
-												type="submit" id="td-header-search-top" value="TÌM KIẾM" />
+								<div class="td-drop-down-search" aria-labelledby="td-header-search-button" >
+									<form method="get" class="td-search-form" id="searchForm">
+										<div role="search" class="td-head-form-search-wrap" >
+											<input v-model="searchnow" id="td-header-search" type="text" value="" name="search" autocomplete="off" />
+											<input @click.prevent="searchpost" class="wpb_button wpb_btn-inverse btn" type="submit" id="td-header-search-top" value="TÌM KIẾM" />
 										</div>
 									</form>
 									<div id="td-aj-search"></div>
@@ -1639,6 +1639,43 @@ Header style 1
 
 </body>
 
-<!-- Mirrored from mauweb.monamedia.net/nguoiduatin/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 31 Oct 2023 15:10:42 GMT -->
+<script>
+    var vm = new Vue({
+        el: '#searchForm',
+        data: {
+            searchnow: '',
+        },
+        // chạy ngay khi web load
+        mounted: function() {
+            // console.log(61616161616161616161616)
+        },
+        // chạy khi thực hiện event
+        methods: {
+            searchpost() {
+                const self = this;
+                window.location.href = "/tim-kiem-post?search=" + self.searchnow;
+            },
+        }
+    })
+    var vm = new Vue({
+        el: '#demo1',
+        data: {
+            searchnow: '',
+        },
+        // chạy ngay khi web load
+        mounted: function() {
+            // console.log(61616161616161616161616)
+        },
+        // chạy khi thực hiện event
+        methods: {
+            searchpost() {
+                const self = this;
+                window.location.href = "/tim-kiem-post?search=" + self.searchnow;
+            },
+        }
+    })
+</script>
+
+
 
 </html>

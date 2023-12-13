@@ -131,4 +131,30 @@ class TintucController extends Controller
 
         ]);
     }
+
+
+    public function timkiempost(Request $request)
+    {
+
+        $post = Post::orderBy('id', 'desc')->where('published_at', '!=', null);
+        if ($request->search) {
+            $post =  $post->where(function ($query) use ($request) {
+                $query->where('title', 'like', '%' . $request->search . '%')
+                    ->orWhere('title', 'like', $request->search . '%')
+                    ->orWhere('title', 'like', '%' . $request->search);
+            });
+        }
+        $post = $post->paginate(16);
+
+        // return count($post);
+        $baimoi = Post::where('published_at', '!=', null)->where('noibat', '=', 1)
+        ->orderBy('id', 'desc')
+        ->take(5);
+
+        return view('timkiem.index', [
+            'post' => $post,
+            'baimoi' => $baimoi,
+
+        ]);
+    }
 }

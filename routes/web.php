@@ -115,6 +115,8 @@ Route::get('/lay-ten-danh-muc', [DanhmucController::class, 'laytendanhmuc'])->na
 Route::get('/', [TintucController::class,'trangchu'])->name('trangchu');
 Route::get('/tin-tuc/{slug}', [TintucController::class,'tintuc'])->name('tintuc');
 Route::get('/chi-tiet-tin-tuc/{slug}', [TintucController::class,'chitiettintuc'])->name('chitiettintuc');
+Route::get('/tim-kiem-post', [TintucController::class,'timkiempost'])->name('timkiempost');
+
 
 
 
